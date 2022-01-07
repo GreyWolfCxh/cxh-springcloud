@@ -1,1866 +1,320 @@
-2021-12-20 15:44:59,401 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:51:51,976 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:44:59,429 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842497511872900
+2022-01-07 17:51:52,370 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500917316280700
 
-2021-12-20 15:44:59,430 INFO send udp packet: 10.0.0.8,64911,2842497511872900
+2022-01-07 17:51:52,386 INFO send udp packet: 10.0.0.8,52714,1500917316280700
 
-2021-12-20 15:44:59,485 INFO [PUSH-SUCC] 85ms, all delay time 682ms, SLA 712ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=0}, DataSize=0, target=10.0.0.8
+2022-01-07 17:51:52,489 INFO [PUSH-SUCC] 520ms, all delay time 1146ms, SLA 257619ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:00,391 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}
+2022-01-07 17:51:54,129 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:00,713 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:51:54,131 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500919468034200
 
-2021-12-20 15:45:00,719 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842498822863700
+2022-01-07 17:51:54,132 INFO send udp packet: 10.0.0.8,52714,1500919468034200
 
-2021-12-20 15:45:00,719 INFO send udp packet: 10.0.0.8,64911,2842498822863700
+2022-01-07 17:51:54,136 INFO [PUSH-SUCC] 7ms, all delay time 546ms, SLA 259266ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:00,849 INFO [PUSH-SUCC] 136ms, all delay time 697ms, SLA 458ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:04,150 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:02,676 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:04,151 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500929488996500
 
-2021-12-20 15:45:02,677 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842500785715400
+2022-01-07 17:52:04,152 INFO send udp packet: 10.0.0.8,52714,1500929488996500
 
-2021-12-20 15:45:02,678 INFO send udp packet: 10.0.0.8,64911,2842500785715400
+2022-01-07 17:52:04,157 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 269287ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:02,682 INFO [PUSH-SUCC] 7ms, all delay time 512ms, SLA 2291ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:14,227 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:12,789 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:14,228 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500939565921100
 
-2021-12-20 15:45:12,791 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842510899046500
+2022-01-07 17:52:14,228 INFO send udp packet: 10.0.0.8,52714,1500939565921100
 
-2021-12-20 15:45:12,791 INFO send udp packet: 10.0.0.8,64911,2842510899046500
+2022-01-07 17:52:14,229 INFO [PUSH-SUCC] 2ms, all delay time 604ms, SLA 279359ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:12,796 INFO [PUSH-SUCC] 7ms, all delay time 580ms, SLA 12405ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:24,156 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:22,763 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:24,157 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500949495189600
 
-2021-12-20 15:45:22,763 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842520872924700
+2022-01-07 17:52:24,157 INFO send udp packet: 10.0.0.8,52714,1500949495189600
 
-2021-12-20 15:45:22,763 INFO send udp packet: 10.0.0.8,64911,2842520872924700
+2022-01-07 17:52:24,161 INFO [PUSH-SUCC] 5ms, all delay time 508ms, SLA 289291ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:22,765 INFO [PUSH-SUCC] 2ms, all delay time 506ms, SLA 22374ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:34,185 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:32,866 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:34,186 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500959523398000
 
-2021-12-20 15:45:32,867 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842530975253900
+2022-01-07 17:52:34,186 INFO send udp packet: 10.0.0.8,52714,1500959523398000
 
-2021-12-20 15:45:32,867 INFO send udp packet: 10.0.0.8,64911,2842530975253900
+2022-01-07 17:52:34,188 INFO [PUSH-SUCC] 3ms, all delay time 520ms, SLA 299318ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:32,872 INFO [PUSH-SUCC] 6ms, all delay time 598ms, SLA 32481ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:44,229 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:42,855 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:44,231 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500969568802900
 
-2021-12-20 15:45:42,856 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842540965254700
+2022-01-07 17:52:44,231 INFO send udp packet: 10.0.0.8,52714,1500969568802900
 
-2021-12-20 15:45:42,857 INFO send udp packet: 10.0.0.8,64911,2842540965254700
+2022-01-07 17:52:44,236 INFO [PUSH-SUCC] 7ms, all delay time 552ms, SLA 309366ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:42,859 INFO [PUSH-SUCC] 4ms, all delay time 552ms, SLA 42468ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:54,219 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:45:52,841 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:54,231 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500979558044800
 
-2021-12-20 15:45:52,848 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842550950769300
+2022-01-07 17:52:54,231 INFO send udp packet: 10.0.0.8,52714,1500979558044800
 
-2021-12-20 15:45:52,848 INFO send udp packet: 10.0.0.8,64911,2842550950769300
+2022-01-07 17:52:54,241 INFO [PUSH-SUCC] 22ms, all delay time 538ms, SLA 319371ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
 
-2021-12-20 15:45:52,853 INFO [PUSH-SUCC] 12ms, all delay time 513ms, SLA 52462ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:52:55,530 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:46:02,870 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:52:55,531 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500980868743900
 
-2021-12-20 15:46:02,871 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842560979163000
+2022-01-07 17:52:55,531 INFO send udp packet: 10.0.0.8,52714,1500980868743900
 
-2021-12-20 15:46:02,871 INFO send udp packet: 10.0.0.8,64911,2842560979163000
+2022-01-07 17:53:05,547 INFO retry to push data, key: 10.0.0.8,52714,1500980868743900
 
-2021-12-20 15:46:02,874 INFO [PUSH-SUCC] 4ms, all delay time 508ms, SLA 62483ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 17:53:15,548 WARN max re-push times reached, retry times 2, key: 10.0.0.8,52714,1500980868743900
 
-2021-12-20 15:46:12,980 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 17:53:15,548 ERROR [PUSH-FAIL] 20019ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, reason=null, target=10.0.0.8
 
-2021-12-20 15:46:12,982 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842571089844100
+2022-01-07 18:06:20,338 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:46:12,982 INFO send udp packet: 10.0.0.8,64911,2842571089844100
+2022-01-07 18:06:20,353 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501785676470400
 
-2021-12-20 15:46:12,987 INFO [PUSH-SUCC] 7ms, all delay time 604ms, SLA 72596ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:06:20,353 INFO send udp packet: 10.0.0.8,55901,1501785676470400
 
-2021-12-20 15:46:23,038 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:06:20,359 INFO [PUSH-SUCC] 21ms, all delay time 580ms, SLA 65869ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:46:23,039 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842581147692100
+2022-01-07 18:06:21,637 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:46:23,040 INFO send udp packet: 10.0.0.8,64911,2842581147692100
+2022-01-07 18:06:21,642 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501786976079800
 
-2021-12-20 15:46:23,044 INFO [PUSH-SUCC] 6ms, all delay time 617ms, SLA 82653ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:06:21,642 INFO send udp packet: 10.0.0.8,55901,1501786976079800
 
-2021-12-20 15:46:32,956 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:06:21,647 INFO [PUSH-SUCC] 10ms, all delay time 616ms, SLA 67157ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:46:32,956 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842591065346900
+2022-01-07 18:06:31,553 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:46:32,957 INFO send udp packet: 10.0.0.8,64911,2842591065346900
+2022-01-07 18:06:31,555 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501796891576300
 
-2021-12-20 15:46:32,959 INFO [PUSH-SUCC] 3ms, all delay time 520ms, SLA 92568ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:06:31,556 INFO send udp packet: 10.0.0.8,55901,1501796891576300
 
-2021-12-20 15:46:43,003 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:06:31,562 INFO [PUSH-SUCC] 9ms, all delay time 526ms, SLA 77072ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:46:43,005 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842601112734600
+2022-01-07 18:06:41,567 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:46:43,005 INFO send udp packet: 10.0.0.8,64911,2842601112734600
+2022-01-07 18:06:41,569 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501806906542400
 
-2021-12-20 15:46:43,012 INFO [PUSH-SUCC] 9ms, all delay time 556ms, SLA 102621ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:06:41,569 INFO send udp packet: 10.0.0.8,55901,1501806906542400
 
-2021-12-20 15:46:53,016 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:06:41,574 INFO [PUSH-SUCC] 7ms, all delay time 520ms, SLA 87084ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:46:53,017 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842611125914100
+2022-01-07 18:06:51,669 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:46:53,017 INFO send udp packet: 10.0.0.8,64911,2842611125914100
+2022-01-07 18:06:51,670 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501817008461200
 
-2021-12-20 15:46:53,028 INFO [PUSH-SUCC] 12ms, all delay time 548ms, SLA 112637ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:06:51,670 INFO send udp packet: 10.0.0.8,55901,1501817008461200
 
-2021-12-20 15:47:03,023 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:06:51,673 INFO [PUSH-SUCC] 4ms, all delay time 603ms, SLA 97183ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:47:03,024 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842621132733000
+2022-01-07 18:07:01,628 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:47:03,024 INFO send udp packet: 10.0.0.8,64911,2842621132733000
+2022-01-07 18:07:01,629 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501826967412900
 
-2021-12-20 15:47:03,027 INFO [PUSH-SUCC] 4ms, all delay time 524ms, SLA 122636ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:07:01,629 INFO send udp packet: 10.0.0.8,55901,1501826967412900
 
-2021-12-20 15:47:12,524 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}
+2022-01-07 18:07:01,650 INFO [PUSH-SUCC] 22ms, all delay time 562ms, SLA 107160ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:47:13,043 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:07:13,527 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:47:13,044 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:64911, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,64911,2842631153382700
+2022-01-07 18:07:13,529 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501838865949100
 
-2021-12-20 15:47:13,044 INFO send udp packet: 10.0.0.8,64911,2842631153382700
+2022-01-07 18:07:13,529 INFO send udp packet: 10.0.0.8,55901,1501838865949100
 
-2021-12-20 15:47:13,055 INFO [PUSH-SUCC] 12ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}, DataSize=0, target=10.0.0.8
+2022-01-07 18:07:13,635 INFO [PUSH-SUCC] 108ms, all delay time 2507ms, SLA 119145ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:21,538 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:07:21,796 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:50:21,538 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842819647772100
+2022-01-07 18:07:21,799 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501847135712500
 
-2021-12-20 15:50:21,539 INFO send udp packet: 10.0.0.8,52351,2842819647772100
+2022-01-07 18:07:21,799 INFO send udp packet: 10.0.0.8,55901,1501847135712500
 
-2021-12-20 15:50:21,543 INFO [PUSH-SUCC] 5ms, all delay time 594ms, SLA 594ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=0}, DataSize=0, target=10.0.0.8
+2022-01-07 18:07:21,804 INFO [PUSH-SUCC] 8ms, all delay time 609ms, SLA 127314ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:22,041 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}
+2022-01-07 18:07:31,812 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:50:22,522 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:07:31,814 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501857150731400
 
-2021-12-20 15:50:22,523 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842820631746300
+2022-01-07 18:07:31,814 INFO send udp packet: 10.0.0.8,55901,1501857150731400
 
-2021-12-20 15:50:22,523 INFO send udp packet: 10.0.0.8,52351,2842820631746300
+2022-01-07 18:07:31,819 INFO [PUSH-SUCC] 7ms, all delay time 589ms, SLA 137329ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:22,543 INFO [PUSH-SUCC] 21ms, all delay time 529ms, SLA 502ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:07:41,811 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:50:24,590 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:07:41,811 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501867149572200
 
-2021-12-20 15:50:24,590 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842822699076100
+2022-01-07 18:07:41,812 INFO send udp packet: 10.0.0.8,55901,1501867149572200
 
-2021-12-20 15:50:24,591 INFO send udp packet: 10.0.0.8,52351,2842822699076100
+2022-01-07 18:07:41,813 INFO [PUSH-SUCC] 2ms, all delay time 542ms, SLA 147323ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:24,595 INFO [PUSH-SUCC] 6ms, all delay time 569ms, SLA 2554ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:07:51,858 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:50:34,597 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:07:51,859 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501877197387400
 
-2021-12-20 15:50:34,598 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842832706340900
+2022-01-07 18:07:51,860 INFO send udp packet: 10.0.0.8,55901,1501877197387400
 
-2021-12-20 15:50:34,598 INFO send udp packet: 10.0.0.8,52351,2842832706340900
+2022-01-07 18:07:51,865 INFO [PUSH-SUCC] 7ms, all delay time 568ms, SLA 157375ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:34,602 INFO [PUSH-SUCC] 5ms, all delay time 556ms, SLA 12561ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:08:01,858 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:50:44,636 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:08:01,859 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501887196562500
 
-2021-12-20 15:50:44,638 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842842747197300
+2022-01-07 18:08:01,860 INFO send udp packet: 10.0.0.8,55901,1501887196562500
 
-2021-12-20 15:50:44,638 INFO send udp packet: 10.0.0.8,52351,2842842747197300
+2022-01-07 18:08:01,865 INFO [PUSH-SUCC] 7ms, all delay time 563ms, SLA 167375ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:44,642 INFO [PUSH-SUCC] 6ms, all delay time 579ms, SLA 22601ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:08:11,887 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:50:54,653 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:08:11,888 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501897226277100
 
-2021-12-20 15:50:54,653 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842852761853600
+2022-01-07 18:08:11,888 INFO send udp packet: 10.0.0.8,55901,1501897226277100
 
-2021-12-20 15:50:54,653 INFO send udp packet: 10.0.0.8,52351,2842852761853600
+2022-01-07 18:08:11,890 INFO [PUSH-SUCC] 3ms, all delay time 574ms, SLA 177400ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:50:54,656 INFO [PUSH-SUCC] 3ms, all delay time 567ms, SLA 32615ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:08:21,881 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:51:04,675 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:08:21,882 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501907220088500
 
-2021-12-20 15:51:04,677 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842862785089800
+2022-01-07 18:08:21,882 INFO send udp packet: 10.0.0.8,55901,1501907220088500
 
-2021-12-20 15:51:04,677 INFO send udp packet: 10.0.0.8,52351,2842862785089800
+2022-01-07 18:08:21,886 INFO [PUSH-SUCC] 5ms, all delay time 553ms, SLA 187396ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:51:04,682 INFO [PUSH-SUCC] 7ms, all delay time 572ms, SLA 42641ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:08:31,841 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:51:14,671 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:08:31,843 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501917181143400
 
-2021-12-20 15:51:14,672 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842872780747500
+2022-01-07 18:08:31,843 INFO send udp packet: 10.0.0.8,55901,1501917181143400
 
-2021-12-20 15:51:14,672 INFO send udp packet: 10.0.0.8,52351,2842872780747500
+2022-01-07 18:08:31,854 INFO [PUSH-SUCC] 13ms, all delay time 514ms, SLA 197364ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:51:14,677 INFO [PUSH-SUCC] 6ms, all delay time 530ms, SLA 52636ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:08:41,932 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:51:24,721 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:08:41,932 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501927270237500
 
-2021-12-20 15:51:24,723 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842882830969800
+2022-01-07 18:08:41,932 INFO send udp packet: 10.0.0.8,55901,1501927270237500
 
-2021-12-20 15:51:24,723 INFO send udp packet: 10.0.0.8,52351,2842882830969800
+2022-01-07 18:08:41,938 INFO [PUSH-SUCC] 6ms, all delay time 582ms, SLA 207448ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:51:24,728 INFO [PUSH-SUCC] 7ms, all delay time 568ms, SLA 62687ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:08:51,935 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:51:34,778 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:08:51,935 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501937273735100
 
-2021-12-20 15:51:34,780 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842892887880300
+2022-01-07 18:08:51,935 INFO send udp packet: 10.0.0.8,55901,1501937273735100
 
-2021-12-20 15:51:34,780 INFO send udp packet: 10.0.0.8,52351,2842892887880300
+2022-01-07 18:08:51,937 INFO [PUSH-SUCC] 2ms, all delay time 563ms, SLA 217447ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:51:34,785 INFO [PUSH-SUCC] 7ms, all delay time 601ms, SLA 72744ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:09:01,987 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:51:44,719 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:09:01,988 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501947326380600
 
-2021-12-20 15:51:44,719 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842902828634200
+2022-01-07 18:09:01,988 INFO send udp packet: 10.0.0.8,55901,1501947326380600
 
-2021-12-20 15:51:44,719 INFO send udp packet: 10.0.0.8,52351,2842902828634200
+2022-01-07 18:09:01,989 INFO [PUSH-SUCC] 2ms, all delay time 608ms, SLA 227499ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:51:44,724 INFO [PUSH-SUCC] 6ms, all delay time 528ms, SLA 82683ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:09:11,944 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:51:54,787 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:09:11,944 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501957282002300
 
-2021-12-20 15:51:54,789 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842912897881000
+2022-01-07 18:09:11,944 INFO send udp packet: 10.0.0.8,55901,1501957282002300
 
-2021-12-20 15:51:54,789 INFO send udp packet: 10.0.0.8,52351,2842912897881000
+2022-01-07 18:09:11,947 INFO [PUSH-SUCC] 3ms, all delay time 547ms, SLA 237457ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:51:54,794 INFO [PUSH-SUCC] 7ms, all delay time 572ms, SLA 92753ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:09:21,941 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:52:04,745 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:09:21,943 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501967279991900
 
-2021-12-20 15:52:04,746 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842922854612200
+2022-01-07 18:09:21,943 INFO send udp packet: 10.0.0.8,55901,1501967279991900
 
-2021-12-20 15:52:04,746 INFO send udp packet: 10.0.0.8,52351,2842922854612200
+2022-01-07 18:09:21,947 INFO [PUSH-SUCC] 6ms, all delay time 527ms, SLA 247457ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:52:04,750 INFO [PUSH-SUCC] 5ms, all delay time 514ms, SLA 102709ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:09:32,043 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:52:14,791 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:09:32,044 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501977381019900
 
-2021-12-20 15:52:14,792 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842932901400800
+2022-01-07 18:09:32,051 INFO send udp packet: 10.0.0.8,55901,1501977381019900
 
-2021-12-20 15:52:14,792 INFO send udp packet: 10.0.0.8,52351,2842932901400800
+2022-01-07 18:09:32,053 INFO [PUSH-SUCC] 10ms, all delay time 610ms, SLA 257563ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:52:14,803 INFO [PUSH-SUCC] 12ms, all delay time 547ms, SLA 112762ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:09:42,059 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:52:24,867 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:09:42,060 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501987397441900
 
-2021-12-20 15:52:24,868 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842942976228900
+2022-01-07 18:09:42,060 INFO send udp packet: 10.0.0.8,55901,1501987397441900
 
-2021-12-20 15:52:24,868 INFO send udp packet: 10.0.0.8,52351,2842942976228900
+2022-01-07 18:09:42,065 INFO [PUSH-SUCC] 6ms, all delay time 604ms, SLA 267575ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:52:24,873 INFO [PUSH-SUCC] 6ms, all delay time 602ms, SLA 122832ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:10:52,188 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:52:34,813 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:10:52,190 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:63821, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,63821,1502057526882500
 
-2021-12-20 15:52:34,814 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842952922844400
+2022-01-07 18:10:52,213 INFO send udp packet: 10.0.0.8,63821,1502057526882500
 
-2021-12-20 15:52:34,814 INFO send udp packet: 10.0.0.8,52351,2842952922844400
+2022-01-07 18:10:52,237 INFO [PUSH-SUCC] 41ms, all delay time 616ms, SLA 337738ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:52:34,820 INFO [PUSH-SUCC] 7ms, all delay time 538ms, SLA 132779ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:10:53,283 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:52:44,877 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:10:53,285 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:63821, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,63821,1502058622214200
 
-2021-12-20 15:52:44,878 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842962986573900
+2022-01-07 18:10:53,285 INFO send udp packet: 10.0.0.8,63821,1502058622214200
 
-2021-12-20 15:52:44,878 INFO send udp packet: 10.0.0.8,52351,2842962986573900
+2022-01-07 18:10:53,288 INFO [PUSH-SUCC] 5ms, all delay time 614ms, SLA 338798ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:52:44,890 INFO [PUSH-SUCC] 13ms, all delay time 597ms, SLA 142849ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:10:58,532 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}
 
-2021-12-20 15:52:54,835 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:10:58,959 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:52:54,836 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842972944550400
+2022-01-07 18:10:58,960 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:63821, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,63821,1502064298226300
 
-2021-12-20 15:52:54,836 INFO send udp packet: 10.0.0.8,52351,2842972944550400
+2022-01-07 18:10:58,960 INFO send udp packet: 10.0.0.8,63821,1502064298226300
 
-2021-12-20 15:52:54,841 INFO [PUSH-SUCC] 6ms, all delay time 530ms, SLA 152800ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:11:08,968 INFO retry to push data, key: 10.0.0.8,63821,1502064298226300
 
-2021-12-20 15:53:04,881 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:11:18,975 WARN max re-push times reached, retry times 2, key: 10.0.0.8,63821,1502064298226300
 
-2021-12-20 15:53:04,882 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842982991251400
+2022-01-07 18:11:18,975 ERROR [PUSH-FAIL] 20016ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}, reason=null, target=10.0.0.8
 
-2021-12-20 15:53:04,882 INFO send udp packet: 10.0.0.8,52351,2842982991251400
+2022-01-07 18:13:13,449 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:53:04,887 INFO [PUSH-SUCC] 6ms, all delay time 543ms, SLA 162846ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:13:13,464 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502198788241300
 
-2021-12-20 15:53:14,928 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:13:13,464 INFO send udp packet: 10.0.0.8,57526,1502198788241300
 
-2021-12-20 15:53:14,928 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2842993036906800
+2022-01-07 18:13:13,474 INFO [PUSH-SUCC] 25ms, all delay time 549ms, SLA 39264ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:53:14,929 INFO send udp packet: 10.0.0.8,52351,2842993036906800
+2022-01-07 18:13:14,539 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:53:14,933 INFO [PUSH-SUCC] 6ms, all delay time 573ms, SLA 172892ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:13:14,540 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502199878346900
 
-2021-12-20 15:53:24,882 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:13:14,541 INFO send udp packet: 10.0.0.8,57526,1502199878346900
 
-2021-12-20 15:53:24,883 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843002991453500
+2022-01-07 18:13:14,546 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 40336ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:53:24,883 INFO send udp packet: 10.0.0.8,52351,2843002991453500
+2022-01-07 18:13:24,542 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:53:24,887 INFO [PUSH-SUCC] 5ms, all delay time 508ms, SLA 182846ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:13:24,544 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502209881338500
 
-2021-12-20 15:53:34,948 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:13:24,544 INFO send udp packet: 10.0.0.8,57526,1502209881338500
 
-2021-12-20 15:53:34,949 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843013058276600
+2022-01-07 18:13:24,547 INFO [PUSH-SUCC] 5ms, all delay time 528ms, SLA 50337ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
 
-2021-12-20 15:53:34,950 INFO send udp packet: 10.0.0.8,52351,2843013058276600
+2022-01-07 18:13:26,601 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}
 
-2021-12-20 15:53:34,954 INFO [PUSH-SUCC] 6ms, all delay time 560ms, SLA 192913ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:13:27,049 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
 
-2021-12-20 15:53:45,009 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
+2022-01-07 18:13:27,050 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502212388376200
 
-2021-12-20 15:53:45,009 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843023117857400
+2022-01-07 18:13:27,050 INFO send udp packet: 10.0.0.8,57526,1502212388376200
 
-2021-12-20 15:53:45,009 INFO send udp packet: 10.0.0.8,52351,2843023117857400
+2022-01-07 18:13:37,066 INFO retry to push data, key: 10.0.0.8,57526,1502212388376200
 
-2021-12-20 15:53:45,014 INFO [PUSH-SUCC] 6ms, all delay time 604ms, SLA 202973ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+2022-01-07 18:13:47,080 WARN max re-push times reached, retry times 2, key: 10.0.0.8,57526,1502212388376200
 
-2021-12-20 15:53:54,970 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:53:54,971 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843033080409900
-
-2021-12-20 15:53:54,971 INFO send udp packet: 10.0.0.8,52351,2843033080409900
-
-2021-12-20 15:53:54,976 INFO [PUSH-SUCC] 6ms, all delay time 548ms, SLA 212935ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:54:04,946 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:54:04,947 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843043055292600
-
-2021-12-20 15:54:04,947 INFO send udp packet: 10.0.0.8,52351,2843043055292600
-
-2021-12-20 15:54:04,951 INFO [PUSH-SUCC] 5ms, all delay time 506ms, SLA 222910ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:54:14,999 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:54:15,000 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843053109035400
-
-2021-12-20 15:54:15,000 INFO send udp packet: 10.0.0.8,52351,2843053109035400
-
-2021-12-20 15:54:15,007 INFO [PUSH-SUCC] 8ms, all delay time 539ms, SLA 232966ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:54:25,045 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:54:25,047 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843063155321500
-
-2021-12-20 15:54:25,047 INFO send udp packet: 10.0.0.8,52351,2843063155321500
-
-2021-12-20 15:54:25,052 INFO [PUSH-SUCC] 7ms, all delay time 561ms, SLA 243011ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:54:35,106 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:54:35,107 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843073215747200
-
-2021-12-20 15:54:35,107 INFO send udp packet: 10.0.0.8,52351,2843073215747200
-
-2021-12-20 15:54:35,111 INFO [PUSH-SUCC] 5ms, all delay time 600ms, SLA 253070ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:54:45,059 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:54:45,060 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843083168754900
-
-2021-12-20 15:54:45,061 INFO send udp packet: 10.0.0.8,52351,2843083168754900
-
-2021-12-20 15:54:45,065 INFO [PUSH-SUCC] 6ms, all delay time 540ms, SLA 263024ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:54:55,140 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:54:55,141 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843093250055800
-
-2021-12-20 15:54:55,141 INFO send udp packet: 10.0.0.8,52351,2843093250055800
-
-2021-12-20 15:54:55,142 INFO [PUSH-SUCC] 2ms, all delay time 592ms, SLA 273101ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:55:05,089 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:55:05,090 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843103198455300
-
-2021-12-20 15:55:05,090 INFO send udp packet: 10.0.0.8,52351,2843103198455300
-
-2021-12-20 15:55:05,095 INFO [PUSH-SUCC] 6ms, all delay time 531ms, SLA 283054ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:55:15,132 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:55:15,133 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843113241878300
-
-2021-12-20 15:55:15,133 INFO send udp packet: 10.0.0.8,52351,2843113241878300
-
-2021-12-20 15:55:15,135 INFO [PUSH-SUCC] 3ms, all delay time 551ms, SLA 293094ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:55:25,143 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:55:25,144 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843123252578400
-
-2021-12-20 15:55:25,144 INFO send udp packet: 10.0.0.8,52351,2843123252578400
-
-2021-12-20 15:55:25,145 INFO [PUSH-SUCC] 2ms, all delay time 548ms, SLA 303104ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:55:35,132 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:55:35,132 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843133241753300
-
-2021-12-20 15:55:35,132 INFO send udp packet: 10.0.0.8,52351,2843133241753300
-
-2021-12-20 15:55:35,134 INFO [PUSH-SUCC] 2ms, all delay time 521ms, SLA 313093ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:55:45,195 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:55:45,196 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843143304461400
-
-2021-12-20 15:55:45,196 INFO send udp packet: 10.0.0.8,52351,2843143304461400
-
-2021-12-20 15:55:45,198 INFO [PUSH-SUCC] 3ms, all delay time 570ms, SLA 323157ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:55:55,141 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:55:55,142 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843153250948600
-
-2021-12-20 15:55:55,142 INFO send udp packet: 10.0.0.8,52351,2843153250948600
-
-2021-12-20 15:55:55,144 INFO [PUSH-SUCC] 3ms, all delay time 505ms, SLA 333103ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:56:05,221 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:56:05,221 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843163330795200
-
-2021-12-20 15:56:05,221 INFO send udp packet: 10.0.0.8,52351,2843163330795200
-
-2021-12-20 15:56:05,226 INFO [PUSH-SUCC] 5ms, all delay time 574ms, SLA 343185ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:56:15,177 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:56:15,178 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843173286862300
-
-2021-12-20 15:56:15,178 INFO send udp packet: 10.0.0.8,52351,2843173286862300
-
-2021-12-20 15:56:15,180 INFO [PUSH-SUCC] 3ms, all delay time 507ms, SLA 353139ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:56:25,239 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:56:25,240 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843183348782400
-
-2021-12-20 15:56:25,240 INFO send udp packet: 10.0.0.8,52351,2843183348782400
-
-2021-12-20 15:56:25,244 INFO [PUSH-SUCC] 5ms, all delay time 558ms, SLA 363203ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:56:35,295 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:56:35,295 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843193404340100
-
-2021-12-20 15:56:35,296 INFO send udp packet: 10.0.0.8,52351,2843193404340100
-
-2021-12-20 15:56:35,300 INFO [PUSH-SUCC] 5ms, all delay time 603ms, SLA 373259ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:56:45,259 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:56:45,259 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843203368130200
-
-2021-12-20 15:56:45,259 INFO send udp packet: 10.0.0.8,52351,2843203368130200
-
-2021-12-20 15:56:45,264 INFO [PUSH-SUCC] 6ms, all delay time 557ms, SLA 383223ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:56:55,318 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:56:55,319 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843213427821300
-
-2021-12-20 15:56:55,319 INFO send udp packet: 10.0.0.8,52351,2843213427821300
-
-2021-12-20 15:56:55,324 INFO [PUSH-SUCC] 6ms, all delay time 602ms, SLA 393283ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:57:05,294 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:57:05,295 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843223404236200
-
-2021-12-20 15:57:05,295 INFO send udp packet: 10.0.0.8,52351,2843223404236200
-
-2021-12-20 15:57:05,300 INFO [PUSH-SUCC] 6ms, all delay time 558ms, SLA 403259ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:57:15,367 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:57:15,368 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843233477230200
-
-2021-12-20 15:57:15,368 INFO send udp packet: 10.0.0.8,52351,2843233477230200
-
-2021-12-20 15:57:15,373 INFO [PUSH-SUCC] 6ms, all delay time 604ms, SLA 413332ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:57:25,317 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:57:25,318 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843243426761000
-
-2021-12-20 15:57:25,318 INFO send udp packet: 10.0.0.8,52351,2843243426761000
-
-2021-12-20 15:57:25,322 INFO [PUSH-SUCC] 5ms, all delay time 542ms, SLA 423281ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:57:35,390 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:57:35,391 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843253500088800
-
-2021-12-20 15:57:35,391 INFO send udp packet: 10.0.0.8,52351,2843253500088800
-
-2021-12-20 15:57:35,395 INFO [PUSH-SUCC] 5ms, all delay time 592ms, SLA 433354ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:57:45,343 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:57:45,343 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843263452806600
-
-2021-12-20 15:57:45,344 INFO send udp packet: 10.0.0.8,52351,2843263452806600
-
-2021-12-20 15:57:45,349 INFO [PUSH-SUCC] 7ms, all delay time 528ms, SLA 443308ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:57:55,416 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:57:55,417 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843273525549700
-
-2021-12-20 15:57:55,417 INFO send udp packet: 10.0.0.8,52351,2843273525549700
-
-2021-12-20 15:57:55,424 INFO [PUSH-SUCC] 8ms, all delay time 574ms, SLA 453383ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:58:05,380 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:58:05,380 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843283489524000
-
-2021-12-20 15:58:05,381 INFO send udp packet: 10.0.0.8,52351,2843283489524000
-
-2021-12-20 15:58:05,385 INFO [PUSH-SUCC] 6ms, all delay time 525ms, SLA 463344ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:58:15,434 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:58:15,435 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843293544120500
-
-2021-12-20 15:58:15,435 INFO send udp packet: 10.0.0.8,52351,2843293544120500
-
-2021-12-20 15:58:15,440 INFO [PUSH-SUCC] 6ms, all delay time 559ms, SLA 473399ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:58:25,438 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:58:25,439 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843303547680200
-
-2021-12-20 15:58:25,440 INFO send udp packet: 10.0.0.8,52351,2843303547680200
-
-2021-12-20 15:58:25,444 INFO [PUSH-SUCC] 6ms, all delay time 542ms, SLA 483403ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:58:35,500 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:58:35,501 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843313610162000
-
-2021-12-20 15:58:35,502 INFO send udp packet: 10.0.0.8,52351,2843313610162000
-
-2021-12-20 15:58:35,506 INFO [PUSH-SUCC] 6ms, all delay time 587ms, SLA 493465ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:58:45,446 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:58:45,447 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843323556163300
-
-2021-12-20 15:58:45,447 INFO send udp packet: 10.0.0.8,52351,2843323556163300
-
-2021-12-20 15:58:45,452 INFO [PUSH-SUCC] 6ms, all delay time 514ms, SLA 503411ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:58:55,505 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:58:55,506 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843333614968600
-
-2021-12-20 15:58:55,506 INFO send udp packet: 10.0.0.8,52351,2843333614968600
-
-2021-12-20 15:58:55,510 INFO [PUSH-SUCC] 5ms, all delay time 556ms, SLA 513469ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:59:05,485 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:59:05,485 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843343594257500
-
-2021-12-20 15:59:05,486 INFO send udp packet: 10.0.0.8,52351,2843343594257500
-
-2021-12-20 15:59:05,490 INFO [PUSH-SUCC] 6ms, all delay time 514ms, SLA 523449ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:59:15,567 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:59:15,567 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843353676468300
-
-2021-12-20 15:59:15,568 INFO send udp packet: 10.0.0.8,52351,2843353676468300
-
-2021-12-20 15:59:15,572 INFO [PUSH-SUCC] 5ms, all delay time 574ms, SLA 533531ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:59:25,535 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:59:25,535 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843363644368400
-
-2021-12-20 15:59:25,536 INFO send udp packet: 10.0.0.8,52351,2843363644368400
-
-2021-12-20 15:59:25,540 INFO [PUSH-SUCC] 6ms, all delay time 531ms, SLA 543499ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:59:35,627 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:59:35,628 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843373736577900
-
-2021-12-20 15:59:35,628 INFO send udp packet: 10.0.0.8,52351,2843373736577900
-
-2021-12-20 15:59:35,633 INFO [PUSH-SUCC] 6ms, all delay time 608ms, SLA 553592ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:59:45,569 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:59:45,570 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843383679411700
-
-2021-12-20 15:59:45,570 INFO send udp packet: 10.0.0.8,52351,2843383679411700
-
-2021-12-20 15:59:45,575 INFO [PUSH-SUCC] 6ms, all delay time 528ms, SLA 563534ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 15:59:55,628 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 15:59:55,629 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843393738045500
-
-2021-12-20 15:59:55,630 INFO send udp packet: 10.0.0.8,52351,2843393738045500
-
-2021-12-20 15:59:55,634 INFO [PUSH-SUCC] 6ms, all delay time 575ms, SLA 573593ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:00:05,610 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:00:05,610 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843403718840300
-
-2021-12-20 16:00:05,611 INFO send udp packet: 10.0.0.8,52351,2843403718840300
-
-2021-12-20 16:00:05,615 INFO [PUSH-SUCC] 5ms, all delay time 546ms, SLA 583574ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:00:15,679 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:00:15,679 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843413788388300
-
-2021-12-20 16:00:15,680 INFO send udp packet: 10.0.0.8,52351,2843413788388300
-
-2021-12-20 16:00:15,684 INFO [PUSH-SUCC] 5ms, all delay time 587ms, SLA 593643ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:00:25,658 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:00:25,658 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843423767633000
-
-2021-12-20 16:00:25,659 INFO send udp packet: 10.0.0.8,52351,2843423767633000
-
-2021-12-20 16:00:25,663 INFO [PUSH-SUCC] 5ms, all delay time 550ms, SLA 603622ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:00:35,713 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:00:35,713 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843433822750500
-
-2021-12-20 16:00:35,714 INFO send udp packet: 10.0.0.8,52351,2843433822750500
-
-2021-12-20 16:00:35,719 INFO [PUSH-SUCC] 6ms, all delay time 589ms, SLA 613678ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:00:45,669 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:00:45,670 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843443778521100
-
-2021-12-20 16:00:45,670 INFO send udp packet: 10.0.0.8,52351,2843443778521100
-
-2021-12-20 16:00:45,675 INFO [PUSH-SUCC] 6ms, all delay time 531ms, SLA 623634ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:00:55,745 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:00:55,746 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843453854395900
-
-2021-12-20 16:00:55,746 INFO send udp packet: 10.0.0.8,52351,2843453854395900
-
-2021-12-20 16:00:55,750 INFO [PUSH-SUCC] 5ms, all delay time 590ms, SLA 633709ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:01:05,707 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:01:05,709 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843463817648400
-
-2021-12-20 16:01:05,710 INFO send udp packet: 10.0.0.8,52351,2843463817648400
-
-2021-12-20 16:01:05,714 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 643673ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:01:15,780 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:01:15,781 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843473889172900
-
-2021-12-20 16:01:15,781 INFO send udp packet: 10.0.0.8,52351,2843473889172900
-
-2021-12-20 16:01:15,785 INFO [PUSH-SUCC] 5ms, all delay time 609ms, SLA 653744ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:01:25,730 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:01:25,731 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843483840369000
-
-2021-12-20 16:01:25,731 INFO send udp packet: 10.0.0.8,52351,2843483840369000
-
-2021-12-20 16:01:25,735 INFO [PUSH-SUCC] 5ms, all delay time 538ms, SLA 663694ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:01:35,793 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:01:35,794 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843493903529800
-
-2021-12-20 16:01:35,794 INFO send udp packet: 10.0.0.8,52351,2843493903529800
-
-2021-12-20 16:01:35,802 INFO [PUSH-SUCC] 9ms, all delay time 591ms, SLA 673761ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:01:45,750 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:01:45,750 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843503858804700
-
-2021-12-20 16:01:45,751 INFO send udp packet: 10.0.0.8,52351,2843503858804700
-
-2021-12-20 16:01:45,755 INFO [PUSH-SUCC] 5ms, all delay time 524ms, SLA 683714ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:01:55,807 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:01:55,808 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843513916075200
-
-2021-12-20 16:01:55,808 INFO send udp packet: 10.0.0.8,52351,2843513916075200
-
-2021-12-20 16:01:55,812 INFO [PUSH-SUCC] 5ms, all delay time 559ms, SLA 693771ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:02:05,871 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:02:05,872 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843523981314600
-
-2021-12-20 16:02:05,872 INFO send udp packet: 10.0.0.8,52351,2843523981314600
-
-2021-12-20 16:02:05,876 INFO [PUSH-SUCC] 5ms, all delay time 600ms, SLA 703835ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:02:15,826 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:02:15,827 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843533935811600
-
-2021-12-20 16:02:15,827 INFO send udp packet: 10.0.0.8,52351,2843533935811600
-
-2021-12-20 16:02:15,831 INFO [PUSH-SUCC] 5ms, all delay time 540ms, SLA 713790ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:02:25,889 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:02:25,890 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843543999342800
-
-2021-12-20 16:02:25,891 INFO send udp packet: 10.0.0.8,52351,2843543999342800
-
-2021-12-20 16:02:25,895 INFO [PUSH-SUCC] 6ms, all delay time 587ms, SLA 723854ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:02:35,850 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:02:35,850 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843553959597000
-
-2021-12-20 16:02:35,851 INFO send udp packet: 10.0.0.8,52351,2843553959597000
-
-2021-12-20 16:02:35,855 INFO [PUSH-SUCC] 5ms, all delay time 528ms, SLA 733814ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:02:45,915 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:02:45,915 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843564023791300
-
-2021-12-20 16:02:45,915 INFO send udp packet: 10.0.0.8,52351,2843564023791300
-
-2021-12-20 16:02:45,920 INFO [PUSH-SUCC] 6ms, all delay time 573ms, SLA 743879ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:02:55,890 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:02:55,890 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843573999429800
-
-2021-12-20 16:02:55,890 INFO send udp packet: 10.0.0.8,52351,2843573999429800
-
-2021-12-20 16:02:55,895 INFO [PUSH-SUCC] 6ms, all delay time 528ms, SLA 753854ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:03:05,966 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:03:05,967 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843584076382800
-
-2021-12-20 16:03:05,967 INFO send udp packet: 10.0.0.8,52351,2843584076382800
-
-2021-12-20 16:03:05,972 INFO [PUSH-SUCC] 6ms, all delay time 588ms, SLA 763931ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:03:15,933 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:03:15,933 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843594042584100
-
-2021-12-20 16:03:15,933 INFO send udp packet: 10.0.0.8,52351,2843594042584100
-
-2021-12-20 16:03:15,938 INFO [PUSH-SUCC] 6ms, all delay time 543ms, SLA 773897ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:03:26,010 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:03:26,011 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843604119663400
-
-2021-12-20 16:03:26,011 INFO send udp packet: 10.0.0.8,52351,2843604119663400
-
-2021-12-20 16:03:26,015 INFO [PUSH-SUCC] 6ms, all delay time 602ms, SLA 783974ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:03:35,936 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:03:35,936 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843614045558500
-
-2021-12-20 16:03:35,936 INFO send udp packet: 10.0.0.8,52351,2843614045558500
-
-2021-12-20 16:03:35,938 INFO [PUSH-SUCC] 2ms, all delay time 511ms, SLA 793897ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:03:46,024 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:03:46,024 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843624132958700
-
-2021-12-20 16:03:46,024 INFO send udp packet: 10.0.0.8,52351,2843624132958700
-
-2021-12-20 16:03:46,026 INFO [PUSH-SUCC] 2ms, all delay time 589ms, SLA 803985ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:03:55,987 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:03:55,988 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843634096644800
-
-2021-12-20 16:03:55,988 INFO send udp packet: 10.0.0.8,52351,2843634096644800
-
-2021-12-20 16:03:55,992 INFO [PUSH-SUCC] 5ms, all delay time 541ms, SLA 813951ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:04:05,986 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:04:05,987 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843644096096000
-
-2021-12-20 16:04:05,987 INFO send udp packet: 10.0.0.8,52351,2843644096096000
-
-2021-12-20 16:04:05,992 INFO [PUSH-SUCC] 6ms, all delay time 527ms, SLA 823951ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:04:16,020 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:04:16,021 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843654129314400
-
-2021-12-20 16:04:16,021 INFO send udp packet: 10.0.0.8,52351,2843654129314400
-
-2021-12-20 16:04:16,024 INFO [PUSH-SUCC] 4ms, all delay time 552ms, SLA 833983ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:04:26,059 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:04:26,060 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843664168967400
-
-2021-12-20 16:04:26,060 INFO send udp packet: 10.0.0.8,52351,2843664168967400
-
-2021-12-20 16:04:26,065 INFO [PUSH-SUCC] 7ms, all delay time 558ms, SLA 844024ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:04:36,119 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:04:36,120 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843674229040000
-
-2021-12-20 16:04:36,120 INFO send udp packet: 10.0.0.8,52351,2843674229040000
-
-2021-12-20 16:04:36,122 INFO [PUSH-SUCC] 3ms, all delay time 596ms, SLA 854081ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:04:46,092 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:04:46,092 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843684201436500
-
-2021-12-20 16:04:46,093 INFO send udp packet: 10.0.0.8,52351,2843684201436500
-
-2021-12-20 16:04:46,097 INFO [PUSH-SUCC] 5ms, all delay time 552ms, SLA 864056ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:04:56,153 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:04:56,154 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843694262885700
-
-2021-12-20 16:04:56,155 INFO send udp packet: 10.0.0.8,52351,2843694262885700
-
-2021-12-20 16:04:56,159 INFO [PUSH-SUCC] 6ms, all delay time 598ms, SLA 874118ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:05:06,100 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:05:06,101 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843704209395100
-
-2021-12-20 16:05:06,101 INFO send udp packet: 10.0.0.8,52351,2843704209395100
-
-2021-12-20 16:05:06,105 INFO [PUSH-SUCC] 5ms, all delay time 528ms, SLA 884064ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:05:16,126 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:05:16,127 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843714236332900
-
-2021-12-20 16:05:16,127 INFO send udp packet: 10.0.0.8,52351,2843714236332900
-
-2021-12-20 16:05:16,133 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 894092ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:05:26,171 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:05:26,172 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843724280790600
-
-2021-12-20 16:05:26,172 INFO send udp packet: 10.0.0.8,52351,2843724280790600
-
-2021-12-20 16:05:26,174 INFO [PUSH-SUCC] 3ms, all delay time 555ms, SLA 904133ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:05:36,229 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:05:36,230 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843734338059800
-
-2021-12-20 16:05:36,230 INFO send udp packet: 10.0.0.8,52351,2843734338059800
-
-2021-12-20 16:05:36,234 INFO [PUSH-SUCC] 5ms, all delay time 609ms, SLA 914193ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:05:46,242 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:05:46,243 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843744351946100
-
-2021-12-20 16:05:46,244 INFO send udp packet: 10.0.0.8,52351,2843744351946100
-
-2021-12-20 16:05:46,248 INFO [PUSH-SUCC] 6ms, all delay time 612ms, SLA 924207ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:05:56,202 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:05:56,203 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843754311908600
-
-2021-12-20 16:05:56,203 INFO send udp packet: 10.0.0.8,52351,2843754311908600
-
-2021-12-20 16:05:56,207 INFO [PUSH-SUCC] 5ms, all delay time 558ms, SLA 934166ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:06:06,244 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:06:06,245 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843764353394100
-
-2021-12-20 16:06:06,245 INFO send udp packet: 10.0.0.8,52351,2843764353394100
-
-2021-12-20 16:06:06,249 INFO [PUSH-SUCC] 5ms, all delay time 592ms, SLA 944208ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:06:16,196 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:06:16,197 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843774305795700
-
-2021-12-20 16:06:16,197 INFO send udp packet: 10.0.0.8,52351,2843774305795700
-
-2021-12-20 16:06:16,199 INFO [PUSH-SUCC] 3ms, all delay time 532ms, SLA 954158ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:06:26,253 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:06:26,254 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843784363368100
-
-2021-12-20 16:06:26,255 INFO send udp packet: 10.0.0.8,52351,2843784363368100
-
-2021-12-20 16:06:26,259 INFO [PUSH-SUCC] 6ms, all delay time 583ms, SLA 964218ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:06:36,198 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:06:36,199 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843794308104000
-
-2021-12-20 16:06:36,199 INFO send udp packet: 10.0.0.8,52351,2843794308104000
-
-2021-12-20 16:06:36,203 INFO [PUSH-SUCC] 5ms, all delay time 517ms, SLA 974162ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:06:46,257 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:06:46,258 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843804366821300
-
-2021-12-20 16:06:46,258 INFO send udp packet: 10.0.0.8,52351,2843804366821300
-
-2021-12-20 16:06:46,260 INFO [PUSH-SUCC] 3ms, all delay time 564ms, SLA 984219ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:06:56,234 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:06:56,235 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843814343819800
-
-2021-12-20 16:06:56,235 INFO send udp packet: 10.0.0.8,52351,2843814343819800
-
-2021-12-20 16:06:56,238 INFO [PUSH-SUCC] 4ms, all delay time 532ms, SLA 994197ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:07:06,253 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:07:06,253 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843824362834000
-
-2021-12-20 16:07:06,254 INFO send udp packet: 10.0.0.8,52351,2843824362834000
-
-2021-12-20 16:07:06,256 INFO [PUSH-SUCC] 3ms, all delay time 535ms, SLA 1004215ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:07:16,299 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:07:16,300 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843834408579700
-
-2021-12-20 16:07:16,300 INFO send udp packet: 10.0.0.8,52351,2843834408579700
-
-2021-12-20 16:07:16,302 INFO [PUSH-SUCC] 3ms, all delay time 571ms, SLA 1014261ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:07:26,330 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:07:26,330 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843844440219400
-
-2021-12-20 16:07:26,331 INFO send udp packet: 10.0.0.8,52351,2843844440219400
-
-2021-12-20 16:07:26,332 INFO [PUSH-SUCC] 2ms, all delay time 585ms, SLA 1024291ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:07:36,305 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:07:36,306 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843854415215400
-
-2021-12-20 16:07:36,306 INFO send udp packet: 10.0.0.8,52351,2843854415215400
-
-2021-12-20 16:07:36,310 INFO [PUSH-SUCC] 5ms, all delay time 549ms, SLA 1034269ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:07:46,328 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:07:46,328 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843864437103500
-
-2021-12-20 16:07:46,329 INFO send udp packet: 10.0.0.8,52351,2843864437103500
-
-2021-12-20 16:07:46,333 INFO [PUSH-SUCC] 5ms, all delay time 561ms, SLA 1044292ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:07:56,309 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:07:56,310 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843874418847200
-
-2021-12-20 16:07:56,310 INFO send udp packet: 10.0.0.8,52351,2843874418847200
-
-2021-12-20 16:07:56,314 INFO [PUSH-SUCC] 5ms, all delay time 532ms, SLA 1054273ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:08:06,365 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:08:06,366 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843884474731000
-
-2021-12-20 16:08:06,366 INFO send udp packet: 10.0.0.8,52351,2843884474731000
-
-2021-12-20 16:08:06,367 INFO [PUSH-SUCC] 2ms, all delay time 574ms, SLA 1064326ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:08:16,395 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:08:16,396 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843894504733000
-
-2021-12-20 16:08:16,396 INFO send udp packet: 10.0.0.8,52351,2843894504733000
-
-2021-12-20 16:08:16,400 INFO [PUSH-SUCC] 5ms, all delay time 592ms, SLA 1074359ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:08:26,411 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:08:26,412 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843904520666500
-
-2021-12-20 16:08:26,412 INFO send udp packet: 10.0.0.8,52351,2843904520666500
-
-2021-12-20 16:08:26,416 INFO [PUSH-SUCC] 5ms, all delay time 590ms, SLA 1084375ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:08:36,394 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:08:36,395 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843914503851500
-
-2021-12-20 16:08:36,395 INFO send udp packet: 10.0.0.8,52351,2843914503851500
-
-2021-12-20 16:08:36,397 INFO [PUSH-SUCC] 3ms, all delay time 554ms, SLA 1094356ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:08:46,462 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:08:46,462 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843924571287500
-
-2021-12-20 16:08:46,462 INFO send udp packet: 10.0.0.8,52351,2843924571287500
-
-2021-12-20 16:08:46,464 INFO [PUSH-SUCC] 2ms, all delay time 607ms, SLA 1104423ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:08:56,402 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:08:56,403 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843934512239800
-
-2021-12-20 16:08:56,403 INFO send udp packet: 10.0.0.8,52351,2843934512239800
-
-2021-12-20 16:08:56,411 INFO [PUSH-SUCC] 9ms, all delay time 531ms, SLA 1114370ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:09:06,467 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:09:06,467 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843944576467600
-
-2021-12-20 16:09:06,467 INFO send udp packet: 10.0.0.8,52351,2843944576467600
-
-2021-12-20 16:09:06,469 INFO [PUSH-SUCC] 2ms, all delay time 577ms, SLA 1124428ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:09:16,490 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:09:16,491 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843954600462900
-
-2021-12-20 16:09:16,491 INFO send udp packet: 10.0.0.8,52351,2843954600462900
-
-2021-12-20 16:09:16,495 INFO [PUSH-SUCC] 5ms, all delay time 587ms, SLA 1134454ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:09:26,434 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:09:26,434 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843964543444000
-
-2021-12-20 16:09:26,435 INFO send udp packet: 10.0.0.8,52351,2843964543444000
-
-2021-12-20 16:09:26,438 INFO [PUSH-SUCC] 4ms, all delay time 517ms, SLA 1144397ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:09:36,502 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:09:36,502 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843974612073600
-
-2021-12-20 16:09:36,503 INFO send udp packet: 10.0.0.8,52351,2843974612073600
-
-2021-12-20 16:09:36,505 INFO [PUSH-SUCC] 3ms, all delay time 563ms, SLA 1154464ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:09:46,471 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:09:46,471 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843984580650100
-
-2021-12-20 16:09:46,471 INFO send udp packet: 10.0.0.8,52351,2843984580650100
-
-2021-12-20 16:09:46,472 INFO [PUSH-SUCC] 1ms, all delay time 517ms, SLA 1164431ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:09:56,539 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:09:56,540 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2843994648560000
-
-2021-12-20 16:09:56,540 INFO send udp packet: 10.0.0.8,52351,2843994648560000
-
-2021-12-20 16:09:56,541 INFO [PUSH-SUCC] 2ms, all delay time 569ms, SLA 1174500ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:10:06,496 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:10:06,497 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844004605861600
-
-2021-12-20 16:10:06,497 INFO send udp packet: 10.0.0.8,52351,2844004605861600
-
-2021-12-20 16:10:06,501 INFO [PUSH-SUCC] 5ms, all delay time 522ms, SLA 1184460ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:10:16,547 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:10:16,547 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844014656368500
-
-2021-12-20 16:10:16,547 INFO send udp packet: 10.0.0.8,52351,2844014656368500
-
-2021-12-20 16:10:16,549 INFO [PUSH-SUCC] 2ms, all delay time 558ms, SLA 1194508ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:10:26,565 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:10:26,566 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844024675034500
-
-2021-12-20 16:10:26,566 INFO send udp packet: 10.0.0.8,52351,2844024675034500
-
-2021-12-20 16:10:26,570 INFO [PUSH-SUCC] 5ms, all delay time 573ms, SLA 1204529ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:10:36,535 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:10:36,536 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844034644695300
-
-2021-12-20 16:10:36,536 INFO send udp packet: 10.0.0.8,52351,2844034644695300
-
-2021-12-20 16:10:36,540 INFO [PUSH-SUCC] 5ms, all delay time 525ms, SLA 1214499ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:10:46,601 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:10:46,601 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844044709981500
-
-2021-12-20 16:10:46,602 INFO send udp packet: 10.0.0.8,52351,2844044709981500
-
-2021-12-20 16:10:46,606 INFO [PUSH-SUCC] 5ms, all delay time 580ms, SLA 1224565ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:10:56,554 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:10:56,555 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844054663544000
-
-2021-12-20 16:10:56,555 INFO send udp packet: 10.0.0.8,52351,2844054663544000
-
-2021-12-20 16:10:56,557 INFO [PUSH-SUCC] 3ms, all delay time 516ms, SLA 1234516ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:11:06,645 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:11:06,646 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844064754527400
-
-2021-12-20 16:11:06,646 INFO send udp packet: 10.0.0.8,52351,2844064754527400
-
-2021-12-20 16:11:06,648 INFO [PUSH-SUCC] 3ms, all delay time 590ms, SLA 1244607ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:11:16,604 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:11:16,604 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844074712867800
-
-2021-12-20 16:11:16,604 INFO send udp packet: 10.0.0.8,52351,2844074712867800
-
-2021-12-20 16:11:16,606 INFO [PUSH-SUCC] 2ms, all delay time 530ms, SLA 1254565ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:11:26,669 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:11:26,669 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844084778048500
-
-2021-12-20 16:11:26,669 INFO send udp packet: 10.0.0.8,52351,2844084778048500
-
-2021-12-20 16:11:26,671 INFO [PUSH-SUCC] 2ms, all delay time 573ms, SLA 1264630ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:11:36,708 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:11:36,708 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844094817600400
-
-2021-12-20 16:11:36,709 INFO send udp packet: 10.0.0.8,52351,2844094817600400
-
-2021-12-20 16:11:36,711 INFO [PUSH-SUCC] 3ms, all delay time 598ms, SLA 1274670ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:11:46,646 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:11:46,646 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844104754894400
-
-2021-12-20 16:11:46,646 INFO send udp packet: 10.0.0.8,52351,2844104754894400
-
-2021-12-20 16:11:46,650 INFO [PUSH-SUCC] 4ms, all delay time 530ms, SLA 1284609ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:11:56,696 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:11:56,697 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844114805807900
-
-2021-12-20 16:11:56,697 INFO send udp packet: 10.0.0.8,52351,2844114805807900
-
-2021-12-20 16:11:56,701 INFO [PUSH-SUCC] 5ms, all delay time 565ms, SLA 1294660ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:12:06,768 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:12:06,768 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844124877238800
-
-2021-12-20 16:12:06,768 INFO send udp packet: 10.0.0.8,52351,2844124877238800
-
-2021-12-20 16:12:06,770 INFO [PUSH-SUCC] 2ms, all delay time 612ms, SLA 1304729ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:12:16,715 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:12:16,715 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844134824655200
-
-2021-12-20 16:12:16,716 INFO send udp packet: 10.0.0.8,52351,2844134824655200
-
-2021-12-20 16:12:16,717 INFO [PUSH-SUCC] 2ms, all delay time 549ms, SLA 1314676ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:12:26,748 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:12:26,748 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844144857792100
-
-2021-12-20 16:12:26,749 INFO send udp packet: 10.0.0.8,52351,2844144857792100
-
-2021-12-20 16:12:26,751 INFO [PUSH-SUCC] 3ms, all delay time 568ms, SLA 1324710ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:12:36,749 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:12:36,750 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844154858963700
-
-2021-12-20 16:12:36,750 INFO send udp packet: 10.0.0.8,52351,2844154858963700
-
-2021-12-20 16:12:36,756 INFO [PUSH-SUCC] 7ms, all delay time 558ms, SLA 1334715ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:12:46,740 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:12:46,740 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844164849853200
-
-2021-12-20 16:12:46,741 INFO send udp packet: 10.0.0.8,52351,2844164849853200
-
-2021-12-20 16:12:46,743 INFO [PUSH-SUCC] 3ms, all delay time 525ms, SLA 1344702ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:12:56,761 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:12:56,761 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844174870470100
-
-2021-12-20 16:12:56,761 INFO send udp packet: 10.0.0.8,52351,2844174870470100
-
-2021-12-20 16:12:56,765 INFO [PUSH-SUCC] 4ms, all delay time 527ms, SLA 1354724ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:13:06,790 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:13:06,790 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844184899339200
-
-2021-12-20 16:13:06,790 INFO send udp packet: 10.0.0.8,52351,2844184899339200
-
-2021-12-20 16:13:06,792 INFO [PUSH-SUCC] 2ms, all delay time 542ms, SLA 1364751ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:13:16,789 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:13:16,789 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844194898276400
-
-2021-12-20 16:13:16,789 INFO send udp packet: 10.0.0.8,52351,2844194898276400
-
-2021-12-20 16:13:16,793 INFO [PUSH-SUCC] 4ms, all delay time 528ms, SLA 1374752ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:13:26,809 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:13:26,810 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844204918802400
-
-2021-12-20 16:13:26,810 INFO send udp packet: 10.0.0.8,52351,2844204918802400
-
-2021-12-20 16:13:26,814 INFO [PUSH-SUCC] 5ms, all delay time 534ms, SLA 1384773ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:13:36,822 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:13:36,823 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844214932092900
-
-2021-12-20 16:13:36,823 INFO send udp packet: 10.0.0.8,52351,2844214932092900
-
-2021-12-20 16:13:36,827 INFO [PUSH-SUCC] 5ms, all delay time 532ms, SLA 1394786ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:13:46,917 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:13:46,918 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844225027496900
-
-2021-12-20 16:13:46,918 INFO send udp packet: 10.0.0.8,52351,2844225027496900
-
-2021-12-20 16:13:46,922 INFO [PUSH-SUCC] 5ms, all delay time 608ms, SLA 1404881ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:13:56,893 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:13:56,894 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844235002776000
-
-2021-12-20 16:13:56,894 INFO send udp packet: 10.0.0.8,52351,2844235002776000
-
-2021-12-20 16:13:56,897 INFO [PUSH-SUCC] 4ms, all delay time 579ms, SLA 1414856ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:14:06,934 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:14:06,934 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844245043343200
-
-2021-12-20 16:14:06,934 INFO send udp packet: 10.0.0.8,52351,2844245043343200
-
-2021-12-20 16:14:06,937 INFO [PUSH-SUCC] 3ms, all delay time 607ms, SLA 1424896ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:14:14,585 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:14:14,585 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52351, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52351,2844252694650500
-
-2021-12-20 16:14:14,586 INFO send udp packet: 10.0.0.8,52351,2844252694650500
-
-2021-12-20 16:14:24,588 INFO retry to push data, key: 10.0.0.8,52351,2844252694650500
-
-2021-12-20 16:14:34,596 WARN max re-push times reached, retry times 2, key: 10.0.0.8,52351,2844252694650500
-
-2021-12-20 16:14:34,596 ERROR [PUSH-FAIL] 20011ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}, reason=null, target=10.0.0.8
-
-2021-12-20 16:15:11,671 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:15:11,671 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844309779859100
-
-2021-12-20 16:15:11,671 INFO send udp packet: 10.0.0.8,62130,2844309779859100
-
-2021-12-20 16:15:11,676 INFO [PUSH-SUCC] 5ms, all delay time 571ms, SLA 57703ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}, DataSize=0, target=10.0.0.8
-
-2021-12-20 16:15:12,209 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}
-
-2021-12-20 16:15:12,779 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:15:12,779 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844310888227300
-
-2021-12-20 16:15:12,779 INFO send udp packet: 10.0.0.8,62130,2844310888227300
-
-2021-12-20 16:15:12,820 INFO [PUSH-SUCC] 41ms, all delay time 636ms, SLA 611ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:15:14,752 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:15:14,753 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844312861659400
-
-2021-12-20 16:15:14,753 INFO send udp packet: 10.0.0.8,62130,2844312861659400
-
-2021-12-20 16:15:14,757 INFO [PUSH-SUCC] 5ms, all delay time 562ms, SLA 2548ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:15:24,739 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:15:24,740 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844322849397700
-
-2021-12-20 16:15:24,740 INFO send udp packet: 10.0.0.8,62130,2844322849397700
-
-2021-12-20 16:15:24,745 INFO [PUSH-SUCC] 6ms, all delay time 540ms, SLA 12536ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:15:34,727 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:15:34,727 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844332835983200
-
-2021-12-20 16:15:34,728 INFO send udp packet: 10.0.0.8,62130,2844332835983200
-
-2021-12-20 16:15:34,733 INFO [PUSH-SUCC] 7ms, all delay time 518ms, SLA 22524ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:15:40,368 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:15:40,369 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844338478206600
-
-2021-12-20 16:15:40,369 INFO send udp packet: 10.0.0.8,62130,2844338478206600
-
-2021-12-20 16:15:50,376 INFO retry to push data, key: 10.0.0.8,62130,2844338478206600
-
-2021-12-20 16:16:00,379 WARN max re-push times reached, retry times 2, key: 10.0.0.8,62130,2844338478206600
-
-2021-12-20 16:16:00,379 ERROR [PUSH-FAIL] 20011ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=4}, reason=null, target=10.0.0.8
-
-2021-12-20 16:16:02,494 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:02,494 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844360603866900
-
-2021-12-20 16:16:02,494 INFO send udp packet: 10.0.0.8,62131,2844360603866900
-
-2021-12-20 16:16:02,498 INFO [PUSH-SUCC] 4ms, all delay time 575ms, SLA 22650ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=4}, DataSize=0, target=10.0.0.8
-
-2021-12-20 16:16:03,006 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}
-
-2021-12-20 16:16:03,596 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:03,596 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62130, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62130,2844361705021600
-
-2021-12-20 16:16:03,596 INFO send udp packet: 10.0.0.8,62130,2844361705021600
-
-2021-12-20 16:16:03,596 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:03,597 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844361705667300
-
-2021-12-20 16:16:03,597 INFO send udp packet: 10.0.0.8,62131,2844361705667300
-
-2021-12-20 16:16:03,617 INFO [PUSH-SUCC] 21ms, all delay time 630ms, SLA 611ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:16:05,568 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:05,569 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844363677691100
-
-2021-12-20 16:16:05,569 INFO send udp packet: 10.0.0.8,62131,2844363677691100
-
-2021-12-20 16:16:05,574 INFO [PUSH-SUCC] 6ms, all delay time 578ms, SLA 2568ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:16:13,608 INFO retry to push data, key: 10.0.0.8,62130,2844361705021600
-
-2021-12-20 16:16:15,603 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:15,604 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844373712446900
-
-2021-12-20 16:16:15,604 INFO send udp packet: 10.0.0.8,62131,2844373712446900
-
-2021-12-20 16:16:15,605 INFO [PUSH-SUCC] 2ms, all delay time 596ms, SLA 12599ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:16:23,610 WARN max re-push times reached, retry times 2, key: 10.0.0.8,62130,2844361705021600
-
-2021-12-20 16:16:23,611 ERROR [PUSH-FAIL] 20015ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}, reason=null, target=10.0.0.8
-
-2021-12-20 16:16:25,630 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:25,630 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844383739259900
-
-2021-12-20 16:16:25,631 INFO send udp packet: 10.0.0.8,62131,2844383739259900
-
-2021-12-20 16:16:25,642 INFO [PUSH-SUCC] 12ms, all delay time 613ms, SLA 22636ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:16:35,649 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:35,650 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844393758216700
-
-2021-12-20 16:16:35,650 INFO send udp packet: 10.0.0.8,62131,2844393758216700
-
-2021-12-20 16:16:35,653 INFO [PUSH-SUCC] 4ms, all delay time 612ms, SLA 32647ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=5}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:16:44,557 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:16:44,557 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:62131, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,62131,2844402666483700
-
-2021-12-20 16:16:44,557 INFO send udp packet: 10.0.0.8,62131,2844402666483700
-
-2021-12-20 16:16:54,562 INFO retry to push data, key: 10.0.0.8,62131,2844402666483700
-
-2021-12-20 16:17:04,563 WARN max re-push times reached, retry times 2, key: 10.0.0.8,62131,2844402666483700
-
-2021-12-20 16:17:04,563 ERROR [PUSH-FAIL] 20006ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=6}, reason=null, target=10.0.0.8
-
-2021-12-20 16:19:04,221 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:04,221 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844542330678400
-
-2021-12-20 16:19:04,221 INFO send udp packet: 10.0.0.8,54748,2844542330678400
-
-2021-12-20 16:19:04,225 INFO [PUSH-SUCC] 4ms, all delay time 520ms, SLA 520ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=0}, DataSize=0, target=10.0.0.8
-
-2021-12-20 16:19:04,827 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}
-
-2021-12-20 16:19:05,324 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:05,324 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844543433550800
-
-2021-12-20 16:19:05,325 INFO send udp packet: 10.0.0.8,54748,2844543433550800
-
-2021-12-20 16:19:05,347 INFO [PUSH-SUCC] 23ms, all delay time 570ms, SLA 520ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:19:07,294 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:07,294 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844545403230000
-
-2021-12-20 16:19:07,294 INFO send udp packet: 10.0.0.8,54748,2844545403230000
-
-2021-12-20 16:19:07,299 INFO [PUSH-SUCC] 6ms, all delay time 514ms, SLA 2472ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:19:17,310 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:17,311 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844555420412400
-
-2021-12-20 16:19:17,313 INFO send udp packet: 10.0.0.8,54748,2844555420412400
-
-2021-12-20 16:19:17,318 INFO [PUSH-SUCC] 8ms, all delay time 518ms, SLA 12491ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:19:27,335 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:27,336 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844565444785900
-
-2021-12-20 16:19:27,336 INFO send udp packet: 10.0.0.8,54748,2844565444785900
-
-2021-12-20 16:19:27,341 INFO [PUSH-SUCC] 7ms, all delay time 529ms, SLA 22514ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:19:37,398 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:37,399 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844575507750800
-
-2021-12-20 16:19:37,399 INFO send udp packet: 10.0.0.8,54748,2844575507750800
-
-2021-12-20 16:19:37,401 INFO [PUSH-SUCC] 3ms, all delay time 563ms, SLA 32574ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:19:47,430 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:47,431 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844585539875200
-
-2021-12-20 16:19:47,431 INFO send udp packet: 10.0.0.8,54748,2844585539875200
-
-2021-12-20 16:19:47,434 INFO [PUSH-SUCC] 4ms, all delay time 590ms, SLA 42607ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:19:57,400 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:19:57,401 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844595510425800
-
-2021-12-20 16:19:57,401 INFO send udp packet: 10.0.0.8,54748,2844595510425800
-
-2021-12-20 16:19:57,406 INFO [PUSH-SUCC] 6ms, all delay time 541ms, SLA 52579ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:20:07,460 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:20:07,461 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844605570641300
-
-2021-12-20 16:20:07,461 INFO send udp packet: 10.0.0.8,54748,2844605570641300
-
-2021-12-20 16:20:07,467 INFO [PUSH-SUCC] 7ms, all delay time 580ms, SLA 62640ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:20:17,422 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:20:17,423 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844615531985200
-
-2021-12-20 16:20:17,423 INFO send udp packet: 10.0.0.8,54748,2844615531985200
-
-2021-12-20 16:20:17,428 INFO [PUSH-SUCC] 6ms, all delay time 525ms, SLA 72601ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:20:27,482 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:20:27,483 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844625591765900
-
-2021-12-20 16:20:27,483 INFO send udp packet: 10.0.0.8,54748,2844625591765900
-
-2021-12-20 16:20:27,488 INFO [PUSH-SUCC] 6ms, all delay time 576ms, SLA 82661ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:20:37,497 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:20:37,498 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844635606886100
-
-2021-12-20 16:20:37,499 INFO send udp packet: 10.0.0.8,54748,2844635606886100
-
-2021-12-20 16:20:37,503 INFO [PUSH-SUCC] 6ms, all delay time 578ms, SLA 92676ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:20:47,475 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:20:47,476 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844645584507500
-
-2021-12-20 16:20:47,476 INFO send udp packet: 10.0.0.8,54748,2844645584507500
-
-2021-12-20 16:20:47,483 INFO [PUSH-SUCC] 8ms, all delay time 550ms, SLA 102656ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:20:48,864 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:20:48,865 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:54748, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,54748,2844646973756700
-
-2021-12-20 16:20:48,865 INFO send udp packet: 10.0.0.8,54748,2844646973756700
-
-2021-12-20 16:20:58,874 INFO retry to push data, key: 10.0.0.8,54748,2844646973756700
-
-2021-12-20 16:21:08,880 WARN max re-push times reached, retry times 2, key: 10.0.0.8,54748,2844646973756700
-
-2021-12-20 16:21:08,880 ERROR [PUSH-FAIL] 20016ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}, reason=null, target=10.0.0.8
-
-2021-12-20 16:22:17,854 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:22:17,854 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844735963302100
-
-2021-12-20 16:22:17,854 INFO send udp packet: 10.0.0.8,53216,2844735963302100
-
-2021-12-20 16:22:17,859 INFO [PUSH-SUCC] 5ms, all delay time 546ms, SLA 89566ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}, DataSize=0, target=10.0.0.8
-
-2021-12-20 16:22:18,380 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}
-
-2021-12-20 16:22:18,947 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:22:18,948 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844737056709100
-
-2021-12-20 16:22:18,948 INFO send udp packet: 10.0.0.8,53216,2844737056709100
-
-2021-12-20 16:22:19,018 INFO [PUSH-SUCC] 71ms, all delay time 641ms, SLA 638ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:22:20,908 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:22:20,908 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844739016778500
-
-2021-12-20 16:22:20,908 INFO send udp packet: 10.0.0.8,53216,2844739016778500
-
-2021-12-20 16:22:20,913 INFO [PUSH-SUCC] 5ms, all delay time 526ms, SLA 2533ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:22:30,968 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:22:30,969 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844749077762000
-
-2021-12-20 16:22:30,969 INFO send udp packet: 10.0.0.8,53216,2844749077762000
-
-2021-12-20 16:22:30,972 INFO [PUSH-SUCC] 4ms, all delay time 570ms, SLA 12592ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:22:40,950 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:22:40,951 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844759060519700
-
-2021-12-20 16:22:40,952 INFO send udp packet: 10.0.0.8,53216,2844759060519700
-
-2021-12-20 16:22:40,958 INFO [PUSH-SUCC] 8ms, all delay time 542ms, SLA 22578ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:22:51,023 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:22:51,024 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844769132451700
-
-2021-12-20 16:22:51,025 INFO send udp packet: 10.0.0.8,53216,2844769132451700
-
-2021-12-20 16:22:51,033 INFO [PUSH-SUCC] 11ms, all delay time 602ms, SLA 32653ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:23:01,054 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:23:01,055 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844779163956400
-
-2021-12-20 16:23:01,055 INFO send udp packet: 10.0.0.8,53216,2844779163956400
-
-2021-12-20 16:23:01,065 INFO [PUSH-SUCC] 11ms, all delay time 597ms, SLA 42685ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:23:11,054 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:23:11,056 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844789163806200
-
-2021-12-20 16:23:11,056 INFO send udp packet: 10.0.0.8,53216,2844789163806200
-
-2021-12-20 16:23:11,063 INFO [PUSH-SUCC] 9ms, all delay time 582ms, SLA 52683ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:23:21,031 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:23:21,032 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844799139986200
-
-2021-12-20 16:23:21,032 INFO send udp packet: 10.0.0.8,53216,2844799139986200
-
-2021-12-20 16:23:21,037 INFO [PUSH-SUCC] 7ms, all delay time 544ms, SLA 62657ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:23:31,014 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:23:31,014 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844809123656700
-
-2021-12-20 16:23:31,014 INFO send udp packet: 10.0.0.8,53216,2844809123656700
-
-2021-12-20 16:23:31,016 INFO [PUSH-SUCC] 2ms, all delay time 514ms, SLA 72636ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:23:41,107 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:23:41,107 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844819216029600
-
-2021-12-20 16:23:41,107 INFO send udp packet: 10.0.0.8,53216,2844819216029600
-
-2021-12-20 16:23:41,109 INFO [PUSH-SUCC] 2ms, all delay time 591ms, SLA 82729ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:24:04,111 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:24:04,111 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:53216, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,53216,2844842220305500
-
-2021-12-20 16:24:04,111 INFO send udp packet: 10.0.0.8,53216,2844842220305500
-
-2021-12-20 16:24:14,124 INFO retry to push data, key: 10.0.0.8,53216,2844842220305500
-
-2021-12-20 16:24:24,144 WARN max re-push times reached, retry times 2, key: 10.0.0.8,53216,2844842220305500
-
-2021-12-20 16:24:24,144 ERROR [PUSH-FAIL] 20033ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=4}, reason=null, target=10.0.0.8
-
-2021-12-20 16:33:15,530 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:15,530 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845393638847900
-
-2021-12-20 16:33:15,530 INFO send udp packet: 10.0.0.8,57851,2845393638847900
-
-2021-12-20 16:33:15,546 INFO [PUSH-SUCC] 16ms, all delay time 603ms, SLA 637ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=0}, DataSize=0, target=10.0.0.8
-
-2021-12-20 16:33:16,261 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}
-
-2021-12-20 16:33:16,635 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:16,635 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845394744679200
-
-2021-12-20 16:33:16,635 INFO send udp packet: 10.0.0.8,57851,2845394744679200
-
-2021-12-20 16:33:16,699 INFO [PUSH-SUCC] 64ms, all delay time 673ms, SLA 468ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:33:18,610 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:18,611 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845396719915600
-
-2021-12-20 16:33:18,611 INFO send udp packet: 10.0.0.8,57851,2845396719915600
-
-2021-12-20 16:33:18,628 INFO [PUSH-SUCC] 18ms, all delay time 593ms, SLA 2397ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:33:28,633 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:28,634 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845406742348300
-
-2021-12-20 16:33:28,634 INFO send udp packet: 10.0.0.8,57851,2845406742348300
-
-2021-12-20 16:33:28,636 INFO [PUSH-SUCC] 3ms, all delay time 585ms, SLA 12405ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:33:38,672 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:38,673 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845416782088100
-
-2021-12-20 16:33:38,673 INFO send udp packet: 10.0.0.8,57851,2845416782088100
-
-2021-12-20 16:33:38,675 INFO [PUSH-SUCC] 3ms, all delay time 611ms, SLA 22444ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:33:48,586 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:48,587 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845426695259100
-
-2021-12-20 16:33:48,587 INFO send udp packet: 10.0.0.8,57851,2845426695259100
-
-2021-12-20 16:33:48,592 INFO [PUSH-SUCC] 6ms, all delay time 517ms, SLA 32361ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:33:58,698 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:33:58,698 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845436807755400
-
-2021-12-20 16:33:58,699 INFO send udp packet: 10.0.0.8,57851,2845436807755400
-
-2021-12-20 16:33:58,701 INFO [PUSH-SUCC] 3ms, all delay time 572ms, SLA 42470ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:34:08,667 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:08,668 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845446776777600
-
-2021-12-20 16:34:08,668 INFO send udp packet: 10.0.0.8,57851,2845446776777600
-
-2021-12-20 16:34:08,670 INFO [PUSH-SUCC] 3ms, all delay time 545ms, SLA 52439ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:34:18,707 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:18,708 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845456817359800
-
-2021-12-20 16:34:18,708 INFO send udp packet: 10.0.0.8,57851,2845456817359800
-
-2021-12-20 16:34:18,728 INFO [PUSH-SUCC] 4ms, all delay time 578ms, SLA 62480ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:34:19,589 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:19,590 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845457698635100
-
-2021-12-20 16:34:19,590 INFO send udp packet: 10.0.0.8,57851,2845457698635100
-
-2021-12-20 16:34:28,281 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:28,282 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845466391114600
-
-2021-12-20 16:34:28,282 INFO send udp packet: 10.0.0.8,52608,2845466391114600
-
-2021-12-20 16:34:28,287 INFO [PUSH-SUCC] 6ms, all delay time 547ms, SLA 9290ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}, DataSize=0, target=10.0.0.8
-
-2021-12-20 16:34:28,819 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}
-
-2021-12-20 16:34:29,381 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:29,382 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:57851, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57851,2845467490896400
-
-2021-12-20 16:34:29,382 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:29,382 INFO send udp packet: 10.0.0.8,57851,2845467490896400
-
-2021-12-20 16:34:29,408 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845467491750600
-
-2021-12-20 16:34:29,408 INFO send udp packet: 10.0.0.8,52608,2845467491750600
-
-2021-12-20 16:34:29,471 INFO [PUSH-SUCC] 89ms, all delay time 662ms, SLA 652ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:34:29,597 INFO retry to push data, key: 10.0.0.8,57851,2845457698635100
-
-2021-12-20 16:34:31,340 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:31,341 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845469450058500
-
-2021-12-20 16:34:31,341 INFO send udp packet: 10.0.0.8,52608,2845469450058500
-
-2021-12-20 16:34:31,346 INFO [PUSH-SUCC] 6ms, all delay time 517ms, SLA 2527ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:34:39,416 INFO retry to push data, key: 10.0.0.8,57851,2845467490896400
-
-2021-12-20 16:34:39,603 WARN max re-push times reached, retry times 2, key: 10.0.0.8,57851,2845457698635100
-
-2021-12-20 16:34:39,603 ERROR [PUSH-FAIL] 20014ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, reason=null, target=10.0.0.8
-
-2021-12-20 16:34:41,539 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:41,540 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845479648734200
-
-2021-12-20 16:34:41,540 INFO send udp packet: 10.0.0.8,52608,2845479648734200
-
-2021-12-20 16:34:41,545 INFO [PUSH-SUCC] 6ms, all delay time 535ms, SLA 12726ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:34:49,469 WARN max re-push times reached, retry times 2, key: 10.0.0.8,57851,2845467490896400
-
-2021-12-20 16:34:49,469 ERROR [PUSH-FAIL] 20088ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, reason=null, target=10.0.0.8
-
-2021-12-20 16:34:51,611 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:34:51,612 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845489720888500
-
-2021-12-20 16:34:51,612 INFO send udp packet: 10.0.0.8,52608,2845489720888500
-
-2021-12-20 16:34:51,620 INFO [PUSH-SUCC] 9ms, all delay time 589ms, SLA 22801ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:35:01,643 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:35:01,646 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845499754847600
-
-2021-12-20 16:35:01,647 INFO send udp packet: 10.0.0.8,52608,2845499754847600
-
-2021-12-20 16:35:01,652 INFO [PUSH-SUCC] 9ms, all delay time 597ms, SLA 32833ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:35:11,674 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:35:11,675 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845509784344500
-
-2021-12-20 16:35:11,675 INFO send udp packet: 10.0.0.8,52608,2845509784344500
-
-2021-12-20 16:35:11,680 INFO [PUSH-SUCC] 6ms, all delay time 612ms, SLA 42861ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:35:21,673 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:35:21,674 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845519782686200
-
-2021-12-20 16:35:21,675 INFO send udp packet: 10.0.0.8,52608,2845519782686200
-
-2021-12-20 16:35:21,681 INFO [PUSH-SUCC] 8ms, all delay time 606ms, SLA 52862ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:35:31,657 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:35:31,658 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845529767184600
-
-2021-12-20 16:35:31,658 INFO send udp packet: 10.0.0.8,52608,2845529767184600
-
-2021-12-20 16:35:31,664 INFO [PUSH-SUCC] 7ms, all delay time 578ms, SLA 62845ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:35:41,664 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:35:41,664 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845539773875600
-
-2021-12-20 16:35:41,664 INFO send udp packet: 10.0.0.8,52608,2845539773875600
-
-2021-12-20 16:35:41,666 INFO [PUSH-SUCC] 2ms, all delay time 572ms, SLA 72847ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:35:51,660 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:35:51,661 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845549769982300
-
-2021-12-20 16:35:51,661 INFO send udp packet: 10.0.0.8,52608,2845549769982300
-
-2021-12-20 16:35:51,666 INFO [PUSH-SUCC] 6ms, all delay time 554ms, SLA 82847ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:36:01,672 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:36:01,672 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845559781601900
-
-2021-12-20 16:36:01,672 INFO send udp packet: 10.0.0.8,52608,2845559781601900
-
-2021-12-20 16:36:01,674 INFO [PUSH-SUCC] 2ms, all delay time 547ms, SLA 92855ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:36:11,742 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:36:11,743 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845569852214500
-
-2021-12-20 16:36:11,743 INFO send udp packet: 10.0.0.8,52608,2845569852214500
-
-2021-12-20 16:36:11,748 INFO [PUSH-SUCC] 6ms, all delay time 608ms, SLA 102929ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
-
-2021-12-20 16:36:21,768 INFO DEFAULT_GROUP@@gateway-service is changed, add it to push queue.
-
-2021-12-20 16:36:21,769 INFO serviceName: DEFAULT_GROUP@@gateway-service@@DEFAULT changed, schedule push for: 10.0.0.8:52608, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52608,2845579877705300
-
-2021-12-20 16:36:21,769 INFO send udp packet: 10.0.0.8,52608,2845579877705300
-
-2021-12-20 16:36:21,779 INFO [PUSH-SUCC] 11ms, all delay time 592ms, SLA 112960ms, Service{namespace='public', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, DataSize=1, target=10.0.0.8
+2022-01-07 18:13:47,080 ERROR [PUSH-FAIL] 20031ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}, reason=null, target=10.0.0.8
 
