@@ -1,0 +1,324 @@
+2022-01-07 17:51:51,976 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:51:52,370 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500917316280700
+
+2022-01-07 17:51:52,386 INFO send udp packet: 10.0.0.8,52714,1500917316280700
+
+2022-01-07 17:51:52,489 INFO [PUSH-SUCC] 520ms, all delay time 1146ms, SLA 257619ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:51:54,129 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:51:54,131 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500919468034200
+
+2022-01-07 17:51:54,132 INFO send udp packet: 10.0.0.8,52714,1500919468034200
+
+2022-01-07 17:51:54,136 INFO [PUSH-SUCC] 7ms, all delay time 546ms, SLA 259266ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:04,150 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:04,151 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500929488996500
+
+2022-01-07 17:52:04,152 INFO send udp packet: 10.0.0.8,52714,1500929488996500
+
+2022-01-07 17:52:04,157 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 269287ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:14,227 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:14,228 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500939565921100
+
+2022-01-07 17:52:14,228 INFO send udp packet: 10.0.0.8,52714,1500939565921100
+
+2022-01-07 17:52:14,229 INFO [PUSH-SUCC] 2ms, all delay time 604ms, SLA 279359ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:24,156 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:24,157 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500949495189600
+
+2022-01-07 17:52:24,157 INFO send udp packet: 10.0.0.8,52714,1500949495189600
+
+2022-01-07 17:52:24,161 INFO [PUSH-SUCC] 5ms, all delay time 508ms, SLA 289291ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:34,185 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:34,186 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500959523398000
+
+2022-01-07 17:52:34,186 INFO send udp packet: 10.0.0.8,52714,1500959523398000
+
+2022-01-07 17:52:34,188 INFO [PUSH-SUCC] 3ms, all delay time 520ms, SLA 299318ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:44,229 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:44,231 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500969568802900
+
+2022-01-07 17:52:44,231 INFO send udp packet: 10.0.0.8,52714,1500969568802900
+
+2022-01-07 17:52:44,236 INFO [PUSH-SUCC] 7ms, all delay time 552ms, SLA 309366ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:54,219 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:54,231 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500979558044800
+
+2022-01-07 17:52:54,231 INFO send udp packet: 10.0.0.8,52714,1500979558044800
+
+2022-01-07 17:52:54,241 INFO [PUSH-SUCC] 22ms, all delay time 538ms, SLA 319371ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, DataSize=1, target=10.0.0.8
+
+2022-01-07 17:52:55,530 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 17:52:55,531 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:52714, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,52714,1500980868743900
+
+2022-01-07 17:52:55,531 INFO send udp packet: 10.0.0.8,52714,1500980868743900
+
+2022-01-07 17:53:05,547 INFO retry to push data, key: 10.0.0.8,52714,1500980868743900
+
+2022-01-07 17:53:15,548 WARN max re-push times reached, retry times 2, key: 10.0.0.8,52714,1500980868743900
+
+2022-01-07 17:53:15,548 ERROR [PUSH-FAIL] 20019ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, reason=null, target=10.0.0.8
+
+2022-01-07 18:06:20,338 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:06:20,353 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501785676470400
+
+2022-01-07 18:06:20,353 INFO send udp packet: 10.0.0.8,55901,1501785676470400
+
+2022-01-07 18:06:20,359 INFO [PUSH-SUCC] 21ms, all delay time 580ms, SLA 65869ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:06:21,637 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:06:21,642 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501786976079800
+
+2022-01-07 18:06:21,642 INFO send udp packet: 10.0.0.8,55901,1501786976079800
+
+2022-01-07 18:06:21,647 INFO [PUSH-SUCC] 10ms, all delay time 616ms, SLA 67157ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:06:31,553 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:06:31,555 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501796891576300
+
+2022-01-07 18:06:31,556 INFO send udp packet: 10.0.0.8,55901,1501796891576300
+
+2022-01-07 18:06:31,562 INFO [PUSH-SUCC] 9ms, all delay time 526ms, SLA 77072ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:06:41,567 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:06:41,569 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501806906542400
+
+2022-01-07 18:06:41,569 INFO send udp packet: 10.0.0.8,55901,1501806906542400
+
+2022-01-07 18:06:41,574 INFO [PUSH-SUCC] 7ms, all delay time 520ms, SLA 87084ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:06:51,669 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:06:51,670 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501817008461200
+
+2022-01-07 18:06:51,670 INFO send udp packet: 10.0.0.8,55901,1501817008461200
+
+2022-01-07 18:06:51,673 INFO [PUSH-SUCC] 4ms, all delay time 603ms, SLA 97183ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:07:01,628 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:07:01,629 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501826967412900
+
+2022-01-07 18:07:01,629 INFO send udp packet: 10.0.0.8,55901,1501826967412900
+
+2022-01-07 18:07:01,650 INFO [PUSH-SUCC] 22ms, all delay time 562ms, SLA 107160ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:07:13,527 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:07:13,529 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501838865949100
+
+2022-01-07 18:07:13,529 INFO send udp packet: 10.0.0.8,55901,1501838865949100
+
+2022-01-07 18:07:13,635 INFO [PUSH-SUCC] 108ms, all delay time 2507ms, SLA 119145ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:07:21,796 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:07:21,799 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501847135712500
+
+2022-01-07 18:07:21,799 INFO send udp packet: 10.0.0.8,55901,1501847135712500
+
+2022-01-07 18:07:21,804 INFO [PUSH-SUCC] 8ms, all delay time 609ms, SLA 127314ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:07:31,812 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:07:31,814 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501857150731400
+
+2022-01-07 18:07:31,814 INFO send udp packet: 10.0.0.8,55901,1501857150731400
+
+2022-01-07 18:07:31,819 INFO [PUSH-SUCC] 7ms, all delay time 589ms, SLA 137329ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:07:41,811 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:07:41,811 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501867149572200
+
+2022-01-07 18:07:41,812 INFO send udp packet: 10.0.0.8,55901,1501867149572200
+
+2022-01-07 18:07:41,813 INFO [PUSH-SUCC] 2ms, all delay time 542ms, SLA 147323ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:07:51,858 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:07:51,859 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501877197387400
+
+2022-01-07 18:07:51,860 INFO send udp packet: 10.0.0.8,55901,1501877197387400
+
+2022-01-07 18:07:51,865 INFO [PUSH-SUCC] 7ms, all delay time 568ms, SLA 157375ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:08:01,858 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:08:01,859 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501887196562500
+
+2022-01-07 18:08:01,860 INFO send udp packet: 10.0.0.8,55901,1501887196562500
+
+2022-01-07 18:08:01,865 INFO [PUSH-SUCC] 7ms, all delay time 563ms, SLA 167375ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:08:11,887 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:08:11,888 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501897226277100
+
+2022-01-07 18:08:11,888 INFO send udp packet: 10.0.0.8,55901,1501897226277100
+
+2022-01-07 18:08:11,890 INFO [PUSH-SUCC] 3ms, all delay time 574ms, SLA 177400ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:08:21,881 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:08:21,882 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501907220088500
+
+2022-01-07 18:08:21,882 INFO send udp packet: 10.0.0.8,55901,1501907220088500
+
+2022-01-07 18:08:21,886 INFO [PUSH-SUCC] 5ms, all delay time 553ms, SLA 187396ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:08:31,841 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:08:31,843 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501917181143400
+
+2022-01-07 18:08:31,843 INFO send udp packet: 10.0.0.8,55901,1501917181143400
+
+2022-01-07 18:08:31,854 INFO [PUSH-SUCC] 13ms, all delay time 514ms, SLA 197364ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:08:41,932 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:08:41,932 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501927270237500
+
+2022-01-07 18:08:41,932 INFO send udp packet: 10.0.0.8,55901,1501927270237500
+
+2022-01-07 18:08:41,938 INFO [PUSH-SUCC] 6ms, all delay time 582ms, SLA 207448ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:08:51,935 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:08:51,935 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501937273735100
+
+2022-01-07 18:08:51,935 INFO send udp packet: 10.0.0.8,55901,1501937273735100
+
+2022-01-07 18:08:51,937 INFO [PUSH-SUCC] 2ms, all delay time 563ms, SLA 217447ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:09:01,987 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:09:01,988 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501947326380600
+
+2022-01-07 18:09:01,988 INFO send udp packet: 10.0.0.8,55901,1501947326380600
+
+2022-01-07 18:09:01,989 INFO [PUSH-SUCC] 2ms, all delay time 608ms, SLA 227499ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:09:11,944 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:09:11,944 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501957282002300
+
+2022-01-07 18:09:11,944 INFO send udp packet: 10.0.0.8,55901,1501957282002300
+
+2022-01-07 18:09:11,947 INFO [PUSH-SUCC] 3ms, all delay time 547ms, SLA 237457ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:09:21,941 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:09:21,943 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501967279991900
+
+2022-01-07 18:09:21,943 INFO send udp packet: 10.0.0.8,55901,1501967279991900
+
+2022-01-07 18:09:21,947 INFO [PUSH-SUCC] 6ms, all delay time 527ms, SLA 247457ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:09:32,043 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:09:32,044 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501977381019900
+
+2022-01-07 18:09:32,051 INFO send udp packet: 10.0.0.8,55901,1501977381019900
+
+2022-01-07 18:09:32,053 INFO [PUSH-SUCC] 10ms, all delay time 610ms, SLA 257563ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:09:42,059 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:09:42,060 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:55901, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,55901,1501987397441900
+
+2022-01-07 18:09:42,060 INFO send udp packet: 10.0.0.8,55901,1501987397441900
+
+2022-01-07 18:09:42,065 INFO [PUSH-SUCC] 6ms, all delay time 604ms, SLA 267575ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:10:52,188 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:10:52,190 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:63821, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,63821,1502057526882500
+
+2022-01-07 18:10:52,213 INFO send udp packet: 10.0.0.8,63821,1502057526882500
+
+2022-01-07 18:10:52,237 INFO [PUSH-SUCC] 41ms, all delay time 616ms, SLA 337738ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:10:53,283 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:10:53,285 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:63821, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,63821,1502058622214200
+
+2022-01-07 18:10:53,285 INFO send udp packet: 10.0.0.8,63821,1502058622214200
+
+2022-01-07 18:10:53,288 INFO [PUSH-SUCC] 5ms, all delay time 614ms, SLA 338798ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:10:58,532 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}
+
+2022-01-07 18:10:58,959 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:10:58,960 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:63821, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,63821,1502064298226300
+
+2022-01-07 18:10:58,960 INFO send udp packet: 10.0.0.8,63821,1502064298226300
+
+2022-01-07 18:11:08,968 INFO retry to push data, key: 10.0.0.8,63821,1502064298226300
+
+2022-01-07 18:11:18,975 WARN max re-push times reached, retry times 2, key: 10.0.0.8,63821,1502064298226300
+
+2022-01-07 18:11:18,975 ERROR [PUSH-FAIL] 20016ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}, reason=null, target=10.0.0.8
+
+2022-01-07 18:13:13,449 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:13:13,464 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502198788241300
+
+2022-01-07 18:13:13,464 INFO send udp packet: 10.0.0.8,57526,1502198788241300
+
+2022-01-07 18:13:13,474 INFO [PUSH-SUCC] 25ms, all delay time 549ms, SLA 39264ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:13:14,539 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:13:14,540 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502199878346900
+
+2022-01-07 18:13:14,541 INFO send udp packet: 10.0.0.8,57526,1502199878346900
+
+2022-01-07 18:13:14,546 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 40336ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:13:24,542 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:13:24,544 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502209881338500
+
+2022-01-07 18:13:24,544 INFO send udp packet: 10.0.0.8,57526,1502209881338500
+
+2022-01-07 18:13:24,547 INFO [PUSH-SUCC] 5ms, all delay time 528ms, SLA 50337ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, DataSize=2, target=10.0.0.8
+
+2022-01-07 18:13:26,601 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}
+
+2022-01-07 18:13:27,049 INFO DEFAULT_GROUP@@ribbon-client is changed, add it to push queue.
+
+2022-01-07 18:13:27,050 INFO serviceName: DEFAULT_GROUP@@ribbon-client changed, schedule push for: 10.0.0.8:57526, agent: Nacos-Java-Client:v1.4.1, key: 10.0.0.8,57526,1502212388376200
+
+2022-01-07 18:13:27,050 INFO send udp packet: 10.0.0.8,57526,1502212388376200
+
+2022-01-07 18:13:37,066 INFO retry to push data, key: 10.0.0.8,57526,1502212388376200
+
+2022-01-07 18:13:47,080 WARN max re-push times reached, retry times 2, key: 10.0.0.8,57526,1502212388376200
+
+2022-01-07 18:13:47,080 ERROR [PUSH-FAIL] 20031ms, Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=4}, reason=null, target=10.0.0.8
+
+2022-01-07 18:31:29,192 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=4}
+
+2022-01-07 18:39:47,653 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=6}
+

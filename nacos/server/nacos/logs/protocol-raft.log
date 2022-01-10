@@ -1,24 +1,24 @@
-2022-01-07 17:42:36,133 INFO Initializes the Raft protocol, raft-config info : {}
+2022-01-10 16:15:04,902 INFO Initializes the Raft protocol, raft-config info : {}
 
-2022-01-07 17:42:36,548 INFO ========= The raft protocol is starting... =========
+2022-01-10 16:15:05,173 INFO ========= The raft protocol is starting... =========
 
-2022-01-07 17:42:36,586 INFO ========= The raft protocol start finished... =========
+2022-01-10 16:15:05,202 INFO ========= The raft protocol start finished... =========
 
-2022-01-07 17:42:36,609 INFO create raft group : naming_persistent_service_v2
+2022-01-10 16:15:05,223 INFO create raft group : naming_persistent_service_v2
 
-2022-01-07 17:42:38,037 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[10.0.0.8:7848]}
+2022-01-10 16:15:07,057 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[10.0.0.8:7848]}
 
-2022-01-07 17:42:38,283 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='10.0.0.8:7848', term=19, raftClusterInfo=[10.0.0.8:7848]}
+2022-01-10 16:15:07,320 INFO create raft group : naming_instance_metadata
 
-2022-01-07 17:42:38,287 INFO create raft group : naming_instance_metadata
+2022-01-10 16:15:07,322 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='10.0.0.8:7848', term=21, raftClusterInfo=[10.0.0.8:7848]}
 
-2022-01-07 17:42:38,763 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[10.0.0.8:7848]}
+2022-01-10 16:15:08,177 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[10.0.0.8:7848]}
 
-2022-01-07 17:42:38,856 INFO create raft group : naming_service_metadata
+2022-01-10 16:15:08,313 INFO create raft group : naming_service_metadata
 
-2022-01-07 17:42:38,867 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='10.0.0.8:7848', term=19, raftClusterInfo=[10.0.0.8:7848]}
+2022-01-10 16:15:08,342 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='10.0.0.8:7848', term=21, raftClusterInfo=[10.0.0.8:7848]}
 
-2022-01-07 17:42:39,233 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[10.0.0.8:7848]}
+2022-01-10 16:15:09,346 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[10.0.0.8:7848]}
 
-2022-01-07 17:42:39,339 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='10.0.0.8:7848', term=19, raftClusterInfo=[10.0.0.8:7848]}
+2022-01-10 16:15:09,508 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='10.0.0.8:7848', term=21, raftClusterInfo=[10.0.0.8:7848]}
 

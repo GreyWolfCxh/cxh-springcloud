@@ -1,0 +1,170 @@
+2022-01-07 17:42:32,337 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-01-07 17:42:32,338 INFO listen for service meta change
+
+2022-01-07 17:42:37,070 INFO [NACOS-DISTRO] healthy server list changed, old: [10.0.0.8:8848], new: [10.0.0.8:8848]
+
+2022-01-07 17:42:37,070 INFO member change, new members [Member{ip='10.0.0.8', port=8848, state=UP, extendInfo={lastRefreshTime=1641548557069, raftPort=7848, version=2.0.0}}]
+
+2022-01-07 17:47:34,867 INFO Client connection 10.0.0.8:8001#true connect
+
+2022-01-07 17:47:34,869 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+
+2022-01-07 17:50:10,214 INFO Client connection 10.0.0.8:8002#true connect
+
+2022-01-07 17:50:10,214 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=0}, 10.0.0.8:8002#true
+
+2022-01-07 17:50:41,510 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=1}, 10.0.0.8:8002#true
+
+2022-01-07 17:50:50,667 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=2}, 10.0.0.8:8002#true
+
+2022-01-07 17:51:06,211 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=3}, 10.0.0.8:8002#true
+
+2022-01-07 17:51:15,715 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=4}, 10.0.0.8:8002#true
+
+2022-01-07 17:51:51,319 INFO Client connection 10.0.0.8:52714#true connect
+
+2022-01-07 17:52:55,014 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
+
+2022-01-07 17:52:55,051 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=5}, 10.0.0.8:8002#true
+
+2022-01-07 17:53:27,069 INFO Client connection 10.0.0.8:52714#true disconnect, remove instances and subscribers
+
+2022-01-07 17:53:27,069 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+
+2022-01-07 17:53:27,069 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+
+2022-01-07 17:54:08,363 WARN namespace : public, [DEFAULT_GROUP@@ribbon-client] services are automatically cleaned
+
+2022-01-07 17:54:08,363 WARN namespace : public, [DEFAULT_GROUP@@ribbon-consumer] services are automatically cleaned
+
+2022-01-07 18:04:31,066 INFO Client connection 10.0.0.8:8003#true connect
+
+2022-01-07 18:04:31,066 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+
+2022-01-07 18:04:51,781 INFO Client connection 10.0.0.8:8002#true connect
+
+2022-01-07 18:04:51,782 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=0}, 10.0.0.8:8002#true
+
+2022-01-07 18:05:14,489 INFO Client connection 10.0.0.8:8001#true connect
+
+2022-01-07 18:05:14,489 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
+
+2022-01-07 18:06:19,778 INFO Client connection 10.0.0.8:55901#true connect
+
+2022-01-07 18:09:50,229 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+
+2022-01-07 18:10:13,945 INFO Client connection 10.0.0.8:55901#true disconnect, remove instances and subscribers
+
+2022-01-07 18:10:23,956 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+
+2022-01-07 18:10:28,911 INFO Client connection 10.0.0.8:8003#true connect
+
+2022-01-07 18:10:28,911 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
+
+2022-01-07 18:10:51,612 INFO Client connection 10.0.0.8:63821#true connect
+
+2022-01-07 18:10:58,420 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, 10.0.0.8:8002#true
+
+2022-01-07 18:10:58,508 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=3}, 10.0.0.8:8003#true
+
+2022-01-07 18:10:58,531 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=3}, 10.0.0.8:8001#true
+
+2022-01-07 18:11:24,040 INFO Client connection 10.0.0.8:63821#true disconnect, remove instances and subscribers
+
+2022-01-07 18:11:29,051 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+
+2022-01-07 18:11:29,051 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+
+2022-01-07 18:11:29,051 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+
+2022-01-07 18:12:08,516 WARN namespace : public, [DEFAULT_GROUP@@ribbon-client] services are automatically cleaned
+
+2022-01-07 18:12:08,517 WARN namespace : public, [DEFAULT_GROUP@@ribbon-consumer] services are automatically cleaned
+
+2022-01-07 18:12:12,105 INFO Client connection 10.0.0.8:8003#true connect
+
+2022-01-07 18:12:12,105 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+
+2022-01-07 18:12:26,891 INFO Client connection 10.0.0.8:8001#true connect
+
+2022-01-07 18:12:26,891 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+
+2022-01-07 18:12:34,210 INFO Client connection 10.0.0.8:8002#true connect
+
+2022-01-07 18:12:34,210 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=1}, 10.0.0.8:8002#true
+
+2022-01-07 18:13:12,925 INFO Client connection 10.0.0.8:57526#true connect
+
+2022-01-07 18:13:26,520 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=2}, 10.0.0.8:8002#true
+
+2022-01-07 18:13:26,582 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+
+2022-01-07 18:13:26,601 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ribbon-client', ephemeral=true, revision=3}, 10.0.0.8:8001#true
+
+2022-01-07 18:13:54,312 INFO Client connection 10.0.0.8:57526#true disconnect, remove instances and subscribers
+
+2022-01-07 18:13:59,333 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+
+2022-01-07 18:13:59,333 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+
+2022-01-07 18:13:59,334 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+
+2022-01-07 18:30:34,328 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-01-07 18:30:34,329 INFO listen for service meta change
+
+2022-01-07 18:30:38,771 INFO member change, new members [Member{ip='10.0.0.8', port=8848, state=UP, extendInfo={lastRefreshTime=1641551438770, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@269459a8, raftPort=7848, version=2.0.0}}]
+
+2022-01-07 18:30:38,808 INFO [NACOS-DISTRO] healthy server list changed, old: [10.0.0.8:8848], new: [10.0.0.8:8848]
+
+2022-01-07 18:30:44,988 INFO Client connection 10.0.0.8:8003#true connect
+
+2022-01-07 18:30:44,995 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+
+2022-01-07 18:31:06,445 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+
+2022-01-07 18:31:29,182 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
+
+2022-01-07 18:31:29,187 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=3}, 10.0.0.8:8003#true
+
+2022-01-07 18:32:38,130 INFO Client connection 10.0.0.8:8001#true connect
+
+2022-01-07 18:32:38,130 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+
+2022-01-07 18:34:44,972 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
+
+2022-01-07 18:34:53,713 INFO Client connection 10.0.0.8:8002#true connect
+
+2022-01-07 18:34:53,713 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=2}, 10.0.0.8:8002#true
+
+2022-01-07 18:35:01,865 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=3}, 10.0.0.8:8001#true
+
+2022-01-07 18:37:40,912 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=4}, 10.0.0.8:8003#true
+
+2022-01-07 18:37:50,325 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=5}, 10.0.0.8:8003#true
+
+2022-01-07 18:38:28,059 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=6}, 10.0.0.8:8003#true
+
+2022-01-07 18:38:36,178 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=7}, 10.0.0.8:8003#true
+
+2022-01-07 18:38:52,279 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=8}, 10.0.0.8:8003#true
+
+2022-01-07 18:39:00,415 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=9}, 10.0.0.8:8003#true
+
+2022-01-07 18:39:47,573 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=10}, 10.0.0.8:8003#true
+
+2022-01-07 18:39:47,619 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=4}, 10.0.0.8:8002#true
+
+2022-01-07 18:39:47,653 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=5}, 10.0.0.8:8001#true
+
+2022-01-07 18:40:17,903 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+
+2022-01-07 18:40:17,904 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+
+2022-01-07 18:40:17,904 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+
+2022-01-07 18:41:09,014 WARN namespace : public, [DEFAULT_GROUP@@feign-client] services are automatically cleaned
+
+2022-01-07 18:41:09,015 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
+
