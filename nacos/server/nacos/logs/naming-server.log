@@ -1,198 +1,110 @@
-2022-01-10 16:15:01,955 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+2022-01-11 15:31:40,840 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
 
-2022-01-10 16:15:01,956 INFO listen for service meta change
+2022-01-11 15:31:40,843 INFO listen for service meta change
 
-2022-01-10 16:15:06,780 INFO member change, new members [Member{ip='10.0.0.8', port=8848, state=UP, extendInfo={lastRefreshTime=1641802506779, raftPort=7848, version=2.0.0}}]
+2022-01-11 15:31:45,436 INFO [NACOS-DISTRO] healthy server list changed, old: [10.0.0.8:8848], new: [10.0.0.8:8848]
 
-2022-01-10 16:15:06,845 INFO [NACOS-DISTRO] healthy server list changed, old: [10.0.0.8:8848], new: [10.0.0.8:8848]
+2022-01-11 15:31:45,438 INFO member change, new members [Member{ip='10.0.0.8', port=8848, state=UP, extendInfo={lastRefreshTime=1641886305436, raftPort=7848, version=2.0.0}}]
 
-2022-01-10 16:16:20,811 INFO Client connection 10.0.0.8:8001#true connect
+2022-01-11 15:34:32,592 INFO Client connection 10.0.0.8:8003#true connect
 
-2022-01-10 16:16:20,813 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+2022-01-11 15:34:32,647 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
 
-2022-01-10 16:16:38,611 INFO Client connection 10.0.0.8:8002#true connect
+2022-01-11 15:35:19,109 INFO Client connection 10.0.0.8:51324#true connect
 
-2022-01-10 16:16:38,611 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8002#true
+2022-01-11 15:36:20,432 INFO Client connection 10.0.0.8:51324#true disconnect, remove instances and subscribers
 
-2022-01-10 16:16:58,642 INFO Client connection 10.0.0.8:8003#true connect
+2022-01-11 15:36:22,327 INFO Client connection 10.0.0.8:51324#true connect
 
-2022-01-10 16:16:58,642 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+2022-01-11 15:36:51,025 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
 
-2022-01-10 16:18:22,525 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+2022-01-11 15:36:55,474 INFO Client connection 10.0.0.8:51324#true disconnect, remove instances and subscribers
 
-2022-01-10 16:18:55,142 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+2022-01-11 15:37:07,220 INFO Client connection 10.0.0.8:63245#true connect
 
-2022-01-10 16:19:37,317 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
+2022-01-11 15:38:40,637 INFO Client connection 10.0.0.8:63245#true disconnect, remove instances and subscribers
 
-2022-01-10 16:19:50,470 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=2}, 10.0.0.8:8001#true
+2022-01-11 15:39:10,410 INFO Client connection 10.0.0.8:63245#true connect
 
-2022-01-10 16:19:50,901 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=3}, 10.0.0.8:8002#true
+2022-01-11 15:39:40,792 INFO Client connection 10.0.0.8:63245#true disconnect, remove instances and subscribers
 
-2022-01-10 16:20:25,352 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+2022-01-11 15:40:38,346 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, ip: {"ip":"10.0.0.8","port":8003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"customInstanceId":"10.0.0.8#8003#DEFAULT#DEFAULT_GROUP@@feign-consumer"},"lastHeartBeatTime":1641886807754,"metadataId":"10.0.0.8:8003:DEFAULT"}
 
-2022-01-10 16:20:25,352 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+2022-01-11 15:40:38,346 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
 
-2022-01-10 16:21:37,340 WARN namespace : public, [DEFAULT_GROUP@@feign-client] services are automatically cleaned
+2022-01-11 15:40:40,880 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
 
-2022-01-10 16:22:06,883 INFO Client connection 10.0.0.8:8003#true connect
+2022-01-11 15:42:17,723 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
 
-2022-01-10 16:22:06,883 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+2022-01-11 15:48:58,647 INFO Client connection 10.0.0.8:8003#true connect
 
-2022-01-10 16:23:05,565 INFO Client connection 10.0.0.8:8001#true connect
+2022-01-11 15:48:58,648 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
 
-2022-01-10 16:23:05,565 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+2022-01-11 15:49:19,242 INFO Client connection 10.0.0.8:60248#true connect
 
-2022-01-10 16:24:13,291 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
+2022-01-11 15:49:56,197 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
 
-2022-01-10 16:24:13,402 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+2022-01-11 15:50:01,093 INFO Client connection 10.0.0.8:53304#true connect
 
-2022-01-10 16:24:45,784 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+2022-01-11 15:50:06,986 INFO Client connection 10.0.0.8:60248#true disconnect, remove instances and subscribers
 
-2022-01-10 16:24:45,784 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+2022-01-11 15:50:36,770 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
 
-2022-01-10 16:25:37,365 WARN namespace : public, [DEFAULT_GROUP@@feign-client] services are automatically cleaned
+2022-01-11 15:50:46,127 INFO Client connection 10.0.0.8:52766#true connect
 
-2022-01-10 16:25:37,365 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
+2022-01-11 15:50:47,050 INFO Client connection 10.0.0.8:53304#true disconnect, remove instances and subscribers
 
-2022-01-10 16:25:43,825 INFO Client connection 10.0.0.8:8003#true connect
+2022-01-11 15:51:03,638 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=3}, 10.0.0.8:8003#true
 
-2022-01-10 16:25:43,825 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+2022-01-11 15:51:13,561 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=4}, 10.0.0.8:8003#true
 
-2022-01-10 16:26:53,026 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+2022-01-11 15:51:18,118 INFO Client connection 10.0.0.8:62051#true connect
 
-2022-01-10 16:27:26,015 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+2022-01-11 15:51:37,139 INFO Client connection 10.0.0.8:52766#true disconnect, remove instances and subscribers
 
-2022-01-10 16:27:26,048 INFO Client connection 10.0.0.8:8001#true connect
+2022-01-11 15:51:52,436 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=5}, 10.0.0.8:8003#true
 
-2022-01-10 16:27:26,048 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+2022-01-11 15:51:57,177 INFO Client connection 10.0.0.8:62051#true disconnect, remove instances and subscribers
 
-2022-01-10 16:28:37,391 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
+2022-01-11 15:52:28,969 INFO Client connection 10.0.0.8:62883#true connect
 
-2022-01-10 16:29:03,619 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
+2022-01-11 15:52:37,708 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=6}, 10.0.0.8:8003#true
 
-2022-01-10 16:29:18,811 INFO Client connection 10.0.0.8:8003#true connect
+2022-01-11 15:53:07,303 INFO Client connection 10.0.0.8:62883#true disconnect, remove instances and subscribers
 
-2022-01-10 16:29:18,811 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=2}, 10.0.0.8:8003#true
+2022-01-11 15:53:12,319 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
 
-2022-01-10 16:29:36,234 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+2022-01-11 15:53:27,625 INFO Client connection 10.0.0.8:8003#true connect
 
-2022-01-10 16:30:53,113 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=3}, 10.0.0.8:8003#true
+2022-01-11 15:53:27,625 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=7}, 10.0.0.8:8003#true
 
-2022-01-10 16:32:31,419 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=4}, 10.0.0.8:8003#true
+2022-01-11 15:53:32,965 INFO Client connection 10.0.0.8:49921#true connect
 
-2022-01-10 16:32:40,479 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=5}, 10.0.0.8:8003#true
+2022-01-11 15:53:49,390 INFO Client connection 10.0.0.8:8001#true connect
 
-2022-01-10 16:33:04,550 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=6}, 10.0.0.8:8003#true
+2022-01-11 15:53:49,390 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
 
-2022-01-10 16:33:36,663 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
+2022-01-11 15:54:24,855 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
 
-2022-01-10 16:34:37,444 WARN namespace : public, [DEFAULT_GROUP@@feign-client] services are automatically cleaned
+2022-01-11 15:54:57,533 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
 
-2022-01-10 16:35:19,241 INFO Client connection 10.0.0.8:8003#true connect
+2022-01-11 15:56:07,678 INFO Client connection 10.0.0.8:49921#true disconnect, remove instances and subscribers
 
-2022-01-10 16:35:19,242 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
+2022-01-11 15:56:17,834 WARN namespace : public, [DEFAULT_GROUP@@feign-client] services are automatically cleaned
 
-2022-01-10 16:37:03,781 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
+2022-01-11 15:56:37,376 INFO Client connection 10.0.0.8:49921#true connect
 
-2022-01-10 16:37:13,377 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
+2022-01-11 15:57:07,781 INFO Client connection 10.0.0.8:49921#true disconnect, remove instances and subscribers
 
-2022-01-10 16:38:11,016 INFO Client connection 10.0.0.8:8001#true connect
+2022-01-11 15:57:37,412 INFO Client connection 10.0.0.8:49921#true connect
 
-2022-01-10 16:38:11,016 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+2022-01-11 15:58:07,849 INFO Client connection 10.0.0.8:49921#true disconnect, remove instances and subscribers
 
-2022-01-10 16:38:24,620 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=3}, 10.0.0.8:8003#true
+2022-01-11 15:58:08,097 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=8}, ip: {"ip":"10.0.0.8","port":8003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"customInstanceId":"10.0.0.8#8003#DEFAULT#DEFAULT_GROUP@@feign-consumer"},"lastHeartBeatTime":1641887854418,"metadataId":"10.0.0.8:8003:DEFAULT"}
 
-2022-01-10 16:38:35,894 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=4}, 10.0.0.8:8003#true
+2022-01-11 15:58:08,114 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=8}, 10.0.0.8:8003#true
 
-2022-01-10 16:41:44,589 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=5}, 10.0.0.8:8003#true
+2022-01-11 15:58:12,857 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
 
-2022-01-10 16:42:04,089 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=6}, 10.0.0.8:8003#true
-
-2022-01-10 16:43:17,656 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=7}, 10.0.0.8:8003#true
-
-2022-01-10 16:43:27,060 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=8}, 10.0.0.8:8003#true
-
-2022-01-10 16:44:30,119 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=9}, 10.0.0.8:8003#true
-
-2022-01-10 16:44:39,682 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=10}, 10.0.0.8:8003#true
-
-2022-01-10 16:45:51,323 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=11}, 10.0.0.8:8003#true
-
-2022-01-10 16:46:24,804 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
-
-2022-01-10 16:47:37,586 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
-
-2022-01-10 16:48:24,221 INFO Client connection 10.0.0.8:8003#true connect
-
-2022-01-10 16:48:24,221 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
-
-2022-01-10 16:51:07,770 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
-
-2022-01-10 16:51:40,351 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
-
-2022-01-10 16:51:44,963 INFO Client connection 10.0.0.8:8003#true connect
-
-2022-01-10 16:51:44,963 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
-
-2022-01-10 16:52:17,011 INFO Client connection 10.0.0.8:64649#true connect
-
-2022-01-10 16:56:25,772 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=3}, 10.0.0.8:8003#true
-
-2022-01-10 16:56:47,791 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=4}, 10.0.0.8:8003#true
-
-2022-01-10 16:56:55,886 INFO Client connection 10.0.0.8:64649#true disconnect, remove instances and subscribers
-
-2022-01-10 16:58:26,204 INFO Client connection 10.0.0.8:54261#true connect
-
-2022-01-10 17:39:31,487 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=5}, 10.0.0.8:8003#true
-
-2022-01-10 17:39:54,897 INFO Client connection 10.0.0.8:54261#true disconnect, remove instances and subscribers
-
-2022-01-10 17:40:04,927 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
-
-2022-01-10 17:40:38,025 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
-
-2022-01-10 17:41:10,363 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, ip: {"ip":"10.0.0.8","port":8001,"healthy":false,"cluster":"DEFAULT","extendDatum":{"customInstanceId":"10.0.0.8#8001#DEFAULT#DEFAULT_GROUP@@feign-client"},"lastHeartBeatTime":1641807637869,"metadataId":"10.0.0.8:8001:DEFAULT"}
-
-2022-01-10 17:41:10,363 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
-
-2022-01-10 17:41:15,012 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
-
-2022-01-10 17:42:38,032 WARN namespace : public, [DEFAULT_GROUP@@feign-client] services are automatically cleaned
-
-2022-01-10 17:43:53,795 INFO Client connection 10.0.0.8:8003#true connect
-
-2022-01-10 17:43:53,795 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=0}, 10.0.0.8:8003#true
-
-2022-01-10 17:44:10,500 INFO Client connection 10.0.0.8:63988#true connect
-
-2022-01-10 17:44:29,981 INFO Client connection 10.0.0.8:8001#true connect
-
-2022-01-10 17:44:29,981 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
-
-2022-01-10 17:44:59,431 INFO Client connection 10.0.0.8:8002#true connect
-
-2022-01-10 17:44:59,431 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=1}, 10.0.0.8:8002#true
-
-2022-01-10 17:46:55,235 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=1}, 10.0.0.8:8003#true
-
-2022-01-10 17:47:04,717 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=2}, 10.0.0.8:8003#true
-
-2022-01-10 17:47:09,706 INFO Client connection 10.0.0.8:62298#true connect
-
-2022-01-10 17:47:18,981 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=2}, 10.0.0.8:8001#true
-
-2022-01-10 17:47:19,032 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-client', ephemeral=true, revision=3}, 10.0.0.8:8002#true
-
-2022-01-10 17:47:19,066 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='feign-consumer', ephemeral=true, revision=3}, 10.0.0.8:8003#true
-
-2022-01-10 17:47:25,827 INFO Client connection 10.0.0.8:63988#true disconnect, remove instances and subscribers
-
-2022-01-10 17:47:40,850 INFO Client connection 10.0.0.8:62298#true disconnect, remove instances and subscribers
-
-2022-01-10 17:47:50,867 INFO Client connection 10.0.0.8:8003#true disconnect, remove instances and subscribers
-
-2022-01-10 17:47:50,867 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
-
-2022-01-10 17:47:50,867 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+2022-01-11 15:59:17,887 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
 

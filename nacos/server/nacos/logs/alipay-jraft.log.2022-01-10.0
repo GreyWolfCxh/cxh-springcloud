@@ -1,0 +1,244 @@
+2022-01-10 16:15:04,968 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-01-10 16:15:05,066 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-01-10 16:15:05,241 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-01-10 16:15:05,248 INFO The number of active nodes increment to 1.
+
+2022-01-10 16:15:06,850 INFO Starts FSMCaller successfully.
+
+2022-01-10 16:15:06,921 INFO Loading snapshot, meta=last_included_index: 19
+last_included_term: 19
+peers: "10.0.0.8:7848"
+.
+
+2022-01-10 16:15:07,058 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> onSnapshotLoadDone, last_included_index: 19
+last_included_term: 19
+peers: "10.0.0.8:7848"
+
+
+2022-01-10 16:15:07,063 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> target priority value has changed from: 0, to: -1.
+
+2022-01-10 16:15:07,135 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> init, term=20, lastLogId=LogId [index=20, term=20], conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 16:15:07,141 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> start vote and grant vote self, term=20.
+
+2022-01-10 16:15:07,245 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-01-10 16:15:07,245 INFO Save raft meta, path=D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=21, votedFor=10.0.0.8:7848, cost time=89 ms
+
+2022-01-10 16:15:07,246 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> become leader of group, term=21, conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 16:15:07,255 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-01-10 16:15:07,259 WARN RPC server is not started in RaftGroupService.
+
+2022-01-10 16:15:07,259 INFO Start the RaftGroupService successfully.
+
+2022-01-10 16:15:07,320 INFO The number of active nodes increment to 2.
+
+2022-01-10 16:15:07,321 INFO onLeaderStart: term=21.
+
+2022-01-10 16:15:07,541 WARN Channel in TRANSIENT_FAILURE state: 10.0.0.8:7848.
+
+2022-01-10 16:15:07,541 WARN Channel in SHUTDOWN state: 10.0.0.8:7848.
+
+2022-01-10 16:15:08,009 INFO Starts FSMCaller successfully.
+
+2022-01-10 16:15:08,095 INFO Loading snapshot, meta=last_included_index: 21
+last_included_term: 19
+peers: "10.0.0.8:7848"
+.
+
+2022-01-10 16:15:08,177 INFO Node <naming_instance_metadata/10.0.0.8:7848> onSnapshotLoadDone, last_included_index: 21
+last_included_term: 19
+peers: "10.0.0.8:7848"
+
+
+2022-01-10 16:15:08,177 INFO Node <naming_instance_metadata/10.0.0.8:7848> target priority value has changed from: 0, to: -1.
+
+2022-01-10 16:15:08,181 INFO Node <naming_instance_metadata/10.0.0.8:7848> init, term=20, lastLogId=LogId [index=22, term=20], conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 16:15:08,182 INFO Node <naming_instance_metadata/10.0.0.8:7848> start vote and grant vote self, term=20.
+
+2022-01-10 16:15:08,305 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-01-10 16:15:08,305 INFO Save raft meta, path=D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=21, votedFor=10.0.0.8:7848, cost time=123 ms
+
+2022-01-10 16:15:08,306 INFO Node <naming_instance_metadata/10.0.0.8:7848> become leader of group, term=21, conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 16:15:08,307 WARN RPC server is not started in RaftGroupService.
+
+2022-01-10 16:15:08,307 INFO Start the RaftGroupService successfully.
+
+2022-01-10 16:15:08,313 INFO The number of active nodes increment to 3.
+
+2022-01-10 16:15:08,342 INFO onLeaderStart: term=21.
+
+2022-01-10 16:15:08,618 ERROR Fail to connect 10.0.0.8:7848, remoting exception: java.util.concurrent.TimeoutException.
+
+2022-01-10 16:15:08,618 ERROR Fail to connect peer 10.0.0.8:7848 to get leader for group naming_persistent_service_v2.
+
+2022-01-10 16:15:09,263 INFO Starts FSMCaller successfully.
+
+2022-01-10 16:15:09,339 INFO Loading snapshot, meta=last_included_index: 19
+last_included_term: 19
+peers: "10.0.0.8:7848"
+.
+
+2022-01-10 16:15:09,346 INFO Node <naming_service_metadata/10.0.0.8:7848> onSnapshotLoadDone, last_included_index: 19
+last_included_term: 19
+peers: "10.0.0.8:7848"
+
+
+2022-01-10 16:15:09,346 INFO Node <naming_service_metadata/10.0.0.8:7848> target priority value has changed from: 0, to: -1.
+
+2022-01-10 16:15:09,347 INFO Node <naming_service_metadata/10.0.0.8:7848> init, term=20, lastLogId=LogId [index=20, term=20], conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 16:15:09,347 INFO Node <naming_service_metadata/10.0.0.8:7848> start vote and grant vote self, term=20.
+
+2022-01-10 16:15:09,464 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-01-10 16:15:09,465 INFO Save raft meta, path=D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=21, votedFor=10.0.0.8:7848, cost time=117 ms
+
+2022-01-10 16:15:09,465 INFO Node <naming_service_metadata/10.0.0.8:7848> become leader of group, term=21, conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 16:15:09,466 WARN RPC server is not started in RaftGroupService.
+
+2022-01-10 16:15:09,467 INFO Start the RaftGroupService successfully.
+
+2022-01-10 16:15:09,507 INFO onLeaderStart: term=21.
+
+2022-01-10 16:30:59,814 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-01-10 16:30:59,814 INFO Deleting snapshot D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_21.
+
+2022-01-10 16:30:59,822 INFO Renaming D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_21.
+
+2022-01-10 16:30:59,824 INFO Deleting snapshot D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_19.
+
+2022-01-10 16:34:43,476 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-01-10 16:34:43,476 INFO Deleting snapshot D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_23.
+
+2022-01-10 16:34:43,477 INFO Renaming D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_23.
+
+2022-01-10 16:34:43,477 INFO Deleting snapshot D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_21.
+
+2022-01-10 16:42:00,434 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-01-10 16:42:00,435 INFO Deleting snapshot D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_21.
+
+2022-01-10 16:42:00,435 INFO Renaming D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_21.
+
+2022-01-10 16:42:00,435 INFO Deleting snapshot D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_19.
+
+2022-01-10 18:39:12,411 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-01-10 18:39:12,574 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-01-10 18:39:12,769 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-01-10 18:39:12,776 INFO The number of active nodes increment to 1.
+
+2022-01-10 18:39:14,508 INFO Starts FSMCaller successfully.
+
+2022-01-10 18:39:14,539 INFO Loading snapshot, meta=last_included_index: 21
+last_included_term: 21
+peers: "10.0.0.8:7848"
+.
+
+2022-01-10 18:39:14,830 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> onSnapshotLoadDone, last_included_index: 21
+last_included_term: 21
+peers: "10.0.0.8:7848"
+
+
+2022-01-10 18:39:14,832 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> target priority value has changed from: 0, to: -1.
+
+2022-01-10 18:39:14,869 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> init, term=21, lastLogId=LogId [index=21, term=21], conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 18:39:14,872 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> start vote and grant vote self, term=21.
+
+2022-01-10 18:39:15,039 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-01-10 18:39:15,040 INFO Save raft meta, path=D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=22, votedFor=10.0.0.8:7848, cost time=167 ms
+
+2022-01-10 18:39:15,041 INFO Node <naming_persistent_service_v2/10.0.0.8:7848> become leader of group, term=22, conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 18:39:15,055 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-01-10 18:39:15,062 WARN RPC server is not started in RaftGroupService.
+
+2022-01-10 18:39:15,062 INFO Start the RaftGroupService successfully.
+
+2022-01-10 18:39:15,204 INFO The number of active nodes increment to 2.
+
+2022-01-10 18:39:15,204 INFO onLeaderStart: term=22.
+
+2022-01-10 18:39:15,404 WARN Channel in TRANSIENT_FAILURE state: 10.0.0.8:7848.
+
+2022-01-10 18:39:15,404 WARN Channel in SHUTDOWN state: 10.0.0.8:7848.
+
+2022-01-10 18:39:15,726 INFO Starts FSMCaller successfully.
+
+2022-01-10 18:39:15,727 INFO Loading snapshot, meta=last_included_index: 23
+last_included_term: 21
+peers: "10.0.0.8:7848"
+.
+
+2022-01-10 18:39:15,770 INFO Node <naming_instance_metadata/10.0.0.8:7848> onSnapshotLoadDone, last_included_index: 23
+last_included_term: 21
+peers: "10.0.0.8:7848"
+
+
+2022-01-10 18:39:15,771 INFO Node <naming_instance_metadata/10.0.0.8:7848> target priority value has changed from: 0, to: -1.
+
+2022-01-10 18:39:15,773 INFO Node <naming_instance_metadata/10.0.0.8:7848> init, term=21, lastLogId=LogId [index=23, term=21], conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 18:39:15,774 INFO Node <naming_instance_metadata/10.0.0.8:7848> start vote and grant vote self, term=21.
+
+2022-01-10 18:39:15,836 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-01-10 18:39:15,837 INFO Save raft meta, path=D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=22, votedFor=10.0.0.8:7848, cost time=63 ms
+
+2022-01-10 18:39:15,837 INFO Node <naming_instance_metadata/10.0.0.8:7848> become leader of group, term=22, conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 18:39:15,838 WARN RPC server is not started in RaftGroupService.
+
+2022-01-10 18:39:15,838 INFO Start the RaftGroupService successfully.
+
+2022-01-10 18:39:15,852 INFO The number of active nodes increment to 3.
+
+2022-01-10 18:39:15,872 INFO onLeaderStart: term=22.
+
+2022-01-10 18:39:16,244 INFO Starts FSMCaller successfully.
+
+2022-01-10 18:39:16,273 INFO Loading snapshot, meta=last_included_index: 21
+last_included_term: 21
+peers: "10.0.0.8:7848"
+.
+
+2022-01-10 18:39:16,289 INFO Node <naming_service_metadata/10.0.0.8:7848> onSnapshotLoadDone, last_included_index: 21
+last_included_term: 21
+peers: "10.0.0.8:7848"
+
+
+2022-01-10 18:39:16,289 INFO Node <naming_service_metadata/10.0.0.8:7848> target priority value has changed from: 0, to: -1.
+
+2022-01-10 18:39:16,290 INFO Node <naming_service_metadata/10.0.0.8:7848> init, term=21, lastLogId=LogId [index=21, term=21], conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 18:39:16,290 INFO Node <naming_service_metadata/10.0.0.8:7848> start vote and grant vote self, term=21.
+
+2022-01-10 18:39:16,389 WARN Unable to fsync directory D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-01-10 18:39:16,389 INFO Save raft meta, path=D:\project\cxh-springcloud\nacos\server\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=22, votedFor=10.0.0.8:7848, cost time=99 ms
+
+2022-01-10 18:39:16,389 INFO Node <naming_service_metadata/10.0.0.8:7848> become leader of group, term=22, conf=10.0.0.8:7848, oldConf=.
+
+2022-01-10 18:39:16,389 WARN RPC server is not started in RaftGroupService.
+
+2022-01-10 18:39:16,389 INFO Start the RaftGroupService successfully.
+
+2022-01-10 18:39:16,483 INFO onLeaderStart: term=22.
+

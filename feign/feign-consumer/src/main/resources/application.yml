@@ -14,4 +14,10 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
+#开启熔断器
+feign:
+  circuitbreaker:
+    enabled: true
+
+
 

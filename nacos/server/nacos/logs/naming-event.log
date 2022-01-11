@@ -1,4 +1,6 @@
-2022-01-10 16:30:48,979 INFO {POS} {IP-DISABLED} valid: 10.0.0.8:8003@DEFAULT@feign-client, region: unknown, msg: client last beat: 1641803429019
+2022-01-11 15:40:23,269 INFO {POS} {IP-DISABLED} valid: 10.0.0.8:8003@DEFAULT@feign-consumer, region: unknown, msg: client last beat: 1641886807754
 
-2022-01-10 17:40:55,234 INFO {POS} {IP-DISABLED} valid: 10.0.0.8:8001@DEFAULT@feign-client, region: unknown, msg: client last beat: 1641807637869
+2022-01-11 15:51:43,876 INFO {POS} {IP-DISABLED} valid: 10.0.0.8:8003@DEFAULT@feign-consumer, region: unknown, msg: client last beat: 1641887485526
+
+2022-01-11 15:57:53,061 INFO {POS} {IP-DISABLED} valid: 10.0.0.8:8003@DEFAULT@feign-consumer, region: unknown, msg: client last beat: 1641887854418
 
