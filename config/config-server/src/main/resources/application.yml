@@ -1,0 +1,21 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          #github的地址, 去掉后缀.git
+          uri: https://github.com/GreyWolfCxh/cxh-config
+          #github登录的账号
+          username: xx
+          #github登录的账号
+          password: xx
+          #对应git上不同的分支
+          default-label: main
+          #扫描仓库文件夹目录
+          #search-paths: /**
+
+

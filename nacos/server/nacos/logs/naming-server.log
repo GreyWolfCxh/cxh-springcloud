@@ -108,3 +108,31 @@
 
 2022-01-11 15:59:17,887 WARN namespace : public, [DEFAULT_GROUP@@feign-consumer] services are automatically cleaned
 
+2022-01-11 17:41:36,113 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-01-11 17:41:36,115 INFO listen for service meta change
+
+2022-01-11 17:41:40,875 INFO member change, new members [Member{ip='10.0.0.8', port=8848, state=UP, extendInfo={lastRefreshTime=1641894100874, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@31a76d05, raftPort=7848, version=2.0.0}}]
+
+2022-01-11 17:41:40,901 INFO [NACOS-DISTRO] healthy server list changed, old: [10.0.0.8:8848], new: [10.0.0.8:8848]
+
+2022-01-11 17:42:23,724 INFO Client connection 10.0.0.8:8001#true connect
+
+2022-01-11 17:42:23,726 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='client', ephemeral=true, revision=0}, 10.0.0.8:8001#true
+
+2022-01-11 17:42:38,615 INFO Client connection 10.0.0.8:8002#true connect
+
+2022-01-11 17:42:38,615 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer', ephemeral=true, revision=0}, 10.0.0.8:8002#true
+
+2022-01-11 17:45:46,568 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer', ephemeral=true, revision=1}, 10.0.0.8:8002#true
+
+2022-01-11 17:45:46,622 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='client', ephemeral=true, revision=1}, 10.0.0.8:8001#true
+
+2022-01-11 17:46:19,714 INFO Client connection 10.0.0.8:8001#true disconnect, remove instances and subscribers
+
+2022-01-11 17:46:19,716 INFO Client connection 10.0.0.8:8002#true disconnect, remove instances and subscribers
+
+2022-01-11 17:47:11,050 WARN namespace : public, [DEFAULT_GROUP@@consumer] services are automatically cleaned
+
+2022-01-11 17:47:11,051 WARN namespace : public, [DEFAULT_GROUP@@client] services are automatically cleaned
+

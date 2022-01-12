@@ -1,0 +1,13 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: application
+
+  cloud:
+    config:
+      name: application
+      profile: dev
+      uri: http://localhost:8000/
+      label: main
+
