@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sentinel
+
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080  #sentinel-dashboard的运行地址
+
+server:
+  port: 8001

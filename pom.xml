@@ -32,6 +32,7 @@
 
     <modules>
         <module>eureka</module>
+        <module>sentinel</module>
     </modules>
 
 

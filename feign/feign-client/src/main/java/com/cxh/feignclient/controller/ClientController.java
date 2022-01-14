@@ -18,11 +18,4 @@ public class ClientController {
         log.info("端口计算：" + port + ":" + c);
         return "端口计算：" + port + ":" + c;
     }
-
-    @GetMapping("/add2")
-    public String add2() {
-
-        return "CS";
-    }
-
 }
