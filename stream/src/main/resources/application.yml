@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        example-topic-input:
+          destination: default.messages
+          binder: cxh-topic
+        example-topic-output:
+          destination: default.messages
+          binder: cxh-topic
+      binders:
+        cxh-topic:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
